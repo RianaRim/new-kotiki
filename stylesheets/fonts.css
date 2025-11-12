@@ -1,0 +1,161 @@
+@font-face {
+    font-family: 'Non Bureau';
+    src: url('../fonts/non-bureau-Black\ Regular.woff') format('woff'),
+    url('../fonts/NonBureau-Black.otf') format('opentype');
+    font-weight: 800;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Non Bureau';
+    src: url('../fonts/non-bureau-Black\ Italic.woff') format('woff'),
+    url('../fonts/NonBureau-BlackItalic.otf') format('opentype');
+    font-weight: 800;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Non Bureau';
+    src: url('../fonts/non-bureau-Bold.woff') format('woff'),
+    url('../fonts/NonBureau-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Non Bureau';
+    src: url('../fonts/non-bureau-Bold\ Italic.woff') format('woff'),
+    url('../fonts/NonBureau-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Non Bureau';
+    src: url('../fonts/NonBureau-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Non Bureau';
+    src: url('../fonts/NonBureau-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Non Bureau';
+    src: url('../fonts/NonBureau-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Non Bureau';
+    src: url('../fonts/NonBureau-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Non Bureau';
+    src: url('../fonts/NonBureau-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Non Bureau';
+    src: url('../fonts/NonBureau-RegularItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Non Bureau Extended';
+    src: url('../fonts/non-bureau-extended-Bold.woff') format('woff'),
+    url('../fonts/NonBureauExtended-Bold.otf') format('opentype');
+    font-weight: 700;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Non Bureau Extended';
+    src: url('../fonts/non-bureau-extended-Bold\ Italic.woff') format('woff'),
+    url('../fonts/NonBureauExtended-BoldItalic.otf') format('opentype');
+    font-weight: 700;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Non Bureau Extended';
+    src: url('../fonts/non-bureau-extended-Light.woff') format('woff'),
+    url('../fonts/NonBureauExtended-Light.otf') format('opentype');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Non Bureau Extended';
+    src: url('../fonts/non-bureau-extended-Light\ Italic.woff') format('woff'),
+    url('../fonts/NonBureauExtended-LightItalic.otf') format('opentype');
+    font-weight: 300;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Non Bureau Extended';
+    src: url('../fonts/NonBureauExtended-Medium.otf') format('opentype');
+    font-weight: 500;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Non Bureau Extended';
+    src: url('../fonts/NonBureauExtended-MediumItalic.otf') format('opentype');
+    font-weight: 500;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Non Bureau Extended';
+    src: url('../fonts/NonBureauExtended-Regular.otf') format('opentype');
+    font-weight: 400;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Non Bureau Extended';
+    src: url('../fonts/NonBureauExtended-RegularItalic.otf') format('opentype');
+    font-weight: 400;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Non Bureau Extended';
+    src: url('../fonts/NonBureauExtended-SemiBold.otf') format('opentype');
+    font-weight: 600;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Non Bureau Extended';
+    src: url('../fonts/NonBureauExtended-SemiBoldItalic.otf') format('opentype');
+    font-weight: 600;
+    font-style: italic;
+}
+
+@font-face {
+    font-family: 'Non Bureau Extended';
+    src: url('../fonts/NonBureauExtended-Thin.otf') format('opentype');
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Non Bureau Extended';
+    src: url('../fonts/NonBureauExtended-ThinItalic.otf') format('opentype');
+    font-weight: 200;
+    font-style: italic;
+}
