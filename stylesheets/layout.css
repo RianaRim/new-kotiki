@@ -53,17 +53,31 @@ a {
 
 /* стили для секций */
 
+/* шапка */
+
 #text1 {
     left: 161px;
     font-weight: 300;
+    transition: all ease 0.5s;
+}
+
+#text1:hover {
+    color: #04AE7B;
 }
 
 #text2 {
     left: 859px;
-    letter-spacing: -0.4px;
+    font-weight: 300;
+    transition: all ease 0.5s;
 }
 
-.section-1 img {
+#text2:hover {
+    color: #04AE7B;
+}
+
+/* секция 1 */
+
+img {
     position: absolute;
 }
 
@@ -197,3 +211,140 @@ a {
 #bob3:hover {
     animation: bounce 1s;
 }
+
+#bee {
+    top: 70px;
+    left: -550px;
+    transition: all ease 1s;
+}
+
+#bee:hover {
+    left: 0;
+}
+
+/* секция 2 */
+
+#sostav {
+    font-size: 89px;
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: 4px;
+    left: 160px;
+    top: 629px;
+    position: absolute;
+}
+
+#artdirect2 {
+    font-size: 89px;
+    font-weight: 700;
+    top: 703px;
+    left: 436px;
+    letter-spacing: 4px;
+    position: absolute;
+}
+
+/* секция 3 */
+
+#me img {
+    top: 862px;
+    left: 162px;
+}
+
+#me p {
+    top: 1279px;
+    left: 162px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    transition: all ease 0.5s;
+}
+
+#me p:hover {
+    color: #04AE7B;
+}
+
+#myself h3 {
+    font-size: 59px;
+    font-weight: 700;
+    top: 854px;
+    left: 576px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+#myself #text3 {
+    letter-spacing: 1px;
+    line-height: 27px;
+    top: 934px;
+    left: 578px;
+}
+
+#myself #text4 {
+    letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 500;
+    top: 1182px;
+    left: 578px;
+}
+
+#myself #text5 {
+    letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 500;
+    top: 1216px;
+    left: 578px;
+}
+
+#myself #pic1 {
+    opacity: 0.5;
+    top: 1233px;
+    left: 790px;
+    transition: all ease 0.5s;
+}
+
+#myself #pic1:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#myself #pic2 {
+    opacity: 0.5;
+    top: 1162px;
+    left: 870px;
+     transition: all ease 0.5s;
+}
+
+#myself #pic2:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#myself #pic3 {
+    opacity: 0.5;
+    top: 1243px;
+    left: 955px;
+    transition: all ease 0.5s;
+}
+
+#myself #pic3:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#myself #pic4 {
+    opacity: 0.5;
+    top: 1163px;
+    left: 965px;
+    transition: all ease 0.5s;
+}
+
+#myself #pic4:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#myself #pic5 {
+    top: 1173px;
+    left: 1053px;
+}
+
