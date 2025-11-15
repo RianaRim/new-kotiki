@@ -250,6 +250,27 @@ img {
     left: 162px;
 }
 
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#me img:hover {
+    animation: bounce 1s;
+}
+
 #me p {
     top: 1279px;
     left: 162px;
@@ -348,3 +369,130 @@ transform: scale(1.1);
     left: 1053px;
 }
 
+/* секция 4 */
+
+#ilya h3{
+    font-size: 59px;
+    font-weight: 700;
+    top: 1442px;
+    left: 372px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+#text6{
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: right;
+    top: 1519px;
+    left: 154px;
+}
+
+#text7{
+     letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 500;
+    top: 1770px;
+    left: 730px;
+}
+
+#text8{
+    letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: right;
+    top: 1803px;
+    left: 608px;
+}
+
+#ilya #pic6{
+ opacity: 0.5;
+    top: 1751px;
+    left: 329px;
+    transition: all ease 0.5s;
+}
+
+#ilya #pic6:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#ilya #pic7{
+ opacity: 0.5;
+    top: 1750px;
+    left: 394px;
+    transition: all ease 0.5s;
+}
+
+#ilya #pic7:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#ilya #pic8{
+ opacity: 0.5;
+    top: 1791px;
+    left: 471px;
+    transition: all ease 0.5s;
+}
+
+#ilya #pic8:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#ilya #pic9{
+ opacity: 0.5;
+    top: 1733px;
+    left: 520px;
+    transition: all ease 0.5s;
+}
+
+#ilya #pic9:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#ilya #pic10 {
+    top: 1760px;
+    left: 161px;
+}
+
+#ilya2 img{
+top: 1450px;
+left: 850px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#ilya2 img:hover {
+    animation: bounce 1s;
+}
+
+#ilya2 p {
+    top: 1867px;
+    left: 1066px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    transition: all ease 0.5s;
+}
+
+#ilya2 p:hover {
+    color: #04AE7B;
+}
