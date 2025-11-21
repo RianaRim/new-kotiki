@@ -65,6 +65,10 @@ a {
     color: #04AE7B;
 }
 
+#text1 a {
+    text-decoration: none;
+}
+
 #text2 {
     left: 859px;
     font-weight: 300;
@@ -73,6 +77,10 @@ a {
 
 #text2:hover {
     color: #04AE7B;
+}
+
+#text2 a {
+    text-decoration: none;
 }
 
 /* секция 1 */
@@ -369,6 +377,10 @@ transform: scale(1.1);
     left: 1053px;
 }
 
+#me a {
+    text-decoration: none;
+}
+
 /* секция 4 */
 
 #ilya h3{
@@ -495,6 +507,10 @@ left: 850px;
 
 #ilya2 p:hover {
     color: #04AE7B;
+}
+
+#ilya2 a {
+    text-decoration: none;
 }
 
 /* секция 5 */
@@ -626,6 +642,10 @@ left: 160px;
     color: #04AE7B;
 }
 
+#borya2 a {
+    text-decoration: none;
+}
+
 /* секция 6 */
 
 #taras h3{
@@ -752,5 +772,266 @@ left: 850px;
 }
 
 #taras2 p:hover {
+    color: #04AE7B;
+}
+#taras2 a {
+    text-decoration: none;
+}
+
+/* секция 7 */
+
+#grisha h3{
+    font-size: 59px;
+    font-weight: 700;
+    top: 3216px;
+    left: 577px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+#text15{
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: left;
+    top: 3294px;
+    left: 577px;
+}
+
+#text16{
+     letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 500;
+    top: 3545px;
+    left: 577px;
+}
+
+#text17{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
+    top: 3577px;
+    left: 577px;
+}
+
+#grisha #pic21{
+ opacity: 0.5;
+    top: 3481px;
+    left: 813px;
+    transition: all ease 0.5s;
+}
+
+#grisha #pic21:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#grisha #pic22{
+ opacity: 0.5;
+    top: 3597px;
+    left: 858px;
+    transition: all ease 0.5s;
+}
+
+#grisha #pic22:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#grisha #pic23{
+ opacity: 0.5;
+    top: 3497px;
+    left: 909px;
+    transition: all ease 0.5s;
+}
+
+#grisha #pic23:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#grisha #pic24{
+ opacity: 0.5;
+    top: 3596px;
+    left: 955px;
+    transition: all ease 0.5s;
+}
+
+#grisha #pic24:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#grisha img{
+top: 3514px;
+left: 1011px;
+}
+
+#grisha2 img{
+top: 3224px;
+left: 162px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#grisha2 img:hover {
+    animation: bounce 1s;
+}
+
+#grisha2 p {
+    top: 3641px;
+    left: 162px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    transition: all ease 0.5s;
+}
+
+#grisha2 p:hover {
+    color: #04AE7B;
+}
+
+/* секция 8 */
+
+#nastyas h3{
+    font-size: 59px;
+    font-weight: 700;
+    top: 3839px;
+    left: 405px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+#text18{
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: right;
+    top: 3917px;
+    left: 158px;
+}
+
+#text19{
+     letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 500;
+    top: 4168px;
+    left: 731px;
+}
+
+#text20{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: right;
+    top: 4200px;
+    left: 526px;
+}
+
+#nastyas #pic26{
+ opacity: 0.5;
+    top: 4229px;
+    left: 494px;
+    transition: all ease 0.5s;
+}
+
+#nastyas #pic26:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#nastyas #pic27{
+ opacity: 0.5;
+    top: 4129px;
+    left: 469px;
+    transition: all ease 0.5s;
+}
+
+#nastyas #pic27:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#nastyas #pic28{
+ opacity: 0.5;
+    top: 4190px;
+    left: 357px;
+    transition: all ease 0.5s;
+}
+
+#nastyas #pic28:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#nastyas #pic29{
+ opacity: 0.5;
+    top: 4133px;
+    left: 324px;
+    transition: all ease 0.5s;
+}
+
+#nastyas #pic29:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#nastyas img{
+top: 4142px;
+left: 161px;
+}
+
+#nastyas2 img{
+top: 3847px;
+left: 850px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#nastyas2 img:hover {
+    animation: bounce 1s;
+}
+
+#nastyas2 p {
+    top: 4264px;
+    left: 956px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    transition: all ease 0.5s;
+}
+
+#nastyas2 p:hover {
     color: #04AE7B;
 }
