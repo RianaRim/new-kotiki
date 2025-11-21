@@ -496,3 +496,261 @@ left: 850px;
 #ilya2 p:hover {
     color: #04AE7B;
 }
+
+/* секция 5 */
+
+#borya h3{
+    font-size: 59px;
+    font-weight: 700;
+    top: 2042px;
+    left: 577px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+#text9{
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: left;
+    top: 2120px;
+    left: 577px;
+}
+
+#text10{
+     letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 500;
+    top: 2370px;
+    left: 577px;
+}
+
+#text11{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
+    top: 2403px;
+    left: 577px;
+}
+
+#borya #pic11{
+ opacity: 0.5;
+    top: 2313px;
+    left: 756px;
+    transition: all ease 0.5s;
+}
+
+#borya #pic11:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#borya #pic12{
+ opacity: 0.5;
+    top: 2369px;
+    left: 803px;
+    transition: all ease 0.5s;
+}
+
+#borya #pic12:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#borya #pic13{
+ opacity: 0.5;
+    top: 2449px;
+    left: 927px;
+    transition: all ease 0.5s;
+}
+
+#borya #pic13:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#borya #pic14{
+ opacity: 0.5;
+    top: 2322px;
+    left: 949px;
+    transition: all ease 0.5s;
+}
+
+#borya #pic14:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#borya img{
+top: 2349px;
+left: 1025px;
+}
+
+#borya2 img{
+top: 2049px;
+left: 160px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#borya2 img:hover {
+    animation: bounce 1s;
+}
+
+#borya2 p {
+    top: 2467px;
+    left: 162px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    transition: all ease 0.5s;
+}
+
+#borya2 p:hover {
+    color: #04AE7B;
+}
+
+/* секция 6 */
+
+#taras h3{
+    font-size: 59px;
+    font-weight: 700;
+    top: 2645px;
+    left: 404px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+#text12{
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: right;
+    top: 2722px;
+    left: 156px;
+}
+
+#text13{
+     letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 500;
+    top: 2972px;
+    left: 731px;
+}
+
+#text14{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: right;
+    top: 3004px;
+    left: 621px;
+}
+
+#taras #pic16{
+ opacity: 0.5;
+    top: 2931px;
+    left: 555px;
+    transition: all ease 0.5s;
+}
+
+#taras #pic16:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#taras #pic17{
+ opacity: 0.5;
+    top: 2967px;
+    left: 453px;
+    transition: all ease 0.5s;
+}
+
+#taras #pic17:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#taras #pic18{
+ opacity: 0.5;
+    top: 2932px;
+    left: 362px;
+    transition: all ease 0.5s;
+}
+
+#taras #pic18:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#taras #pic19{
+ opacity: 0.5;
+    top: 3037px;
+    left: 318px;
+    transition: all ease 0.5s;
+}
+
+#taras #pic19:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#taras img{
+top: 2939px;
+left: 161px;
+}
+
+#taras2 img{
+top: 2652px;
+left: 850px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#taras2 img:hover {
+    animation: bounce 1s;
+}
+
+#taras2 p {
+    top: 3068px;
+    left: 1065px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    transition: all ease 0.5s;
+}
+
+#taras2 p:hover {
+    color: #04AE7B;
+}
