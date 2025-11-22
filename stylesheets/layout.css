@@ -907,6 +907,10 @@ left: 162px;
     color: #04AE7B;
 }
 
+#grisha2 a {
+    text-decoration: none;
+}
+
 /* секция 8 */
 
 #nastyas h3{
@@ -1035,3 +1039,409 @@ left: 850px;
 #nastyas2 p:hover {
     color: #04AE7B;
 }
+
+#nastyas2 a {
+    text-decoration: none;
+}
+
+/* секция 9 */
+
+#dashaz h3{
+    font-size: 59px;
+    font-weight: 700;
+    top: 4403px;
+    left: 577px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+#text21{
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: left;
+    top: 4480px;
+    left: 577px;
+}
+
+#text22{
+     letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 500;
+    top: 4731px;
+    left: 577px;
+}
+
+#text23{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
+    top: 4762px;
+    left: 577px;
+}
+
+#dashaz #pic31{
+ opacity: 0.5;
+    top: 4687px;
+    left: 805px;
+    transition: all ease 0.5s;
+}
+
+#dashaz #pic31:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#dashaz #pic32{
+ opacity: 0.5;
+    top: 4696px;
+    left: 870px;
+    transition: all ease 0.5s;
+}
+
+#dashaz #pic32:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#dashaz #pic33{
+ opacity: 0.5;
+    top: 4769px;
+    left: 921px;
+    transition: all ease 0.5s;
+}
+
+#dashaz #pic33:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#dashaz #pic34{
+ opacity: 0.5;
+    top: 4696px;
+    left: 966px;
+    transition: all ease 0.5s;
+}
+
+#dashaz #pic34:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#dashaz img{
+top: 4726px;
+left: 1013px;
+}
+
+#dashaz2 img{
+top: 4409px;
+left: 162px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#dashaz2 img:hover {
+    animation: bounce 1s;
+}
+
+#dashaz2 p {
+    top: 4827px;
+    left: 162px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    transition: all ease 0.5s;
+}
+
+#dashaz2 p:hover {
+    color: #04AE7B;
+}
+
+#dashaz2 a {
+    text-decoration: none;
+}
+
+/* секция 10 */
+
+#polina h3{
+    font-size: 59px;
+    font-weight: 700;
+    top: 4990px;
+    left: 193px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+#text24{
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: right;
+    top: 5067px;
+    left: 183px;
+}
+
+#text25{
+     letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 500;
+    top: 5317px;
+    left: 730px;
+}
+
+#text26{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
+    top: 5349px;
+    left: 680px;
+}
+
+#polina #pic36{
+ opacity: 0.5;
+    top: 5298px;
+    left: 564px;
+    transition: all ease 0.5s;
+}
+
+#polina #pic36:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#polina #pic37{
+ opacity: 0.5;
+    top: 5385px;
+    left: 508px;
+    transition: all ease 0.5s;
+}
+
+#polina #pic37:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#polina #pic38{
+ opacity: 0.5;
+    top: 5285px;
+    left: 462px;
+    transition: all ease 0.5s;
+}
+
+#polina #pic38:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#polina #pic39{
+ opacity: 0.5;
+    top: 5319px;
+    left: 369px;
+    transition: all ease 0.5s;
+}
+
+#polina #pic39:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#polina img{
+top: 5278px;
+left: 160px;
+}
+
+#polina2 img{
+top: 4997px;
+left: 851px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#polina2 img:hover {
+    animation: bounce 1s;
+}
+
+#polina2 p {
+    top: 5414px;
+    left: 1073px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    transition: all ease 0.5s;
+}
+
+#polina2 p:hover {
+    color: #04AE7B;
+}
+
+#polina2 a {
+    text-decoration: none;
+}
+
+/* секция 11 */
+
+#nastyab h3{
+    font-size: 59px;
+    font-weight: 700;
+    top: 5550px;
+    left: 577px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+#text27{
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: left;
+    top: 5627px;
+    left: 577px;
+}
+
+#text28{
+     letter-spacing: 1px;
+    font-style: italic;
+    font-weight: 500;
+    top: 5877px;
+    left: 577px;
+}
+
+#text29{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
+    top: 5909px;
+    left: 577px;
+}
+
+#nastyab #pic41{
+ opacity: 0.5;
+    top: 5818px;
+    left: 789px;
+    transition: all ease 0.5s;
+}
+
+#nastyab #pic41:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#nastyab #pic42{
+ opacity: 0.5;
+    top: 5891px;
+    left: 816px;
+    transition: all ease 0.5s;
+}
+
+#nastyab #pic42:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#nastyab #pic43{
+ opacity: 0.5;
+    top: 5828px;
+    left: 940px;
+    transition: all ease 0.5s;
+}
+
+#nastyab #pic43:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#nastyab #pic44{
+ opacity: 0.5;
+    top: 5955px;
+    left: 947px;
+    transition: all ease 0.5s;
+}
+
+#nastyab #pic44:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#nastyab img{
+top: 5876px;
+left: 1067px;
+}
+
+#nastyab2 img{
+top: 5557px;
+left: 162px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#nastyab2 img:hover {
+    animation: bounce 1s;
+}
+
+#nastyab2 p {
+    top: 5974px;
+    left: 162px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    transition: all ease 0.5s;
+}
+
+#nastyab2 p:hover {
+    color: #04AE7B;
+}
+
+#nastyab2 a {
+    text-decoration: none;
+}
+
+/* секция 12 */
+
