@@ -1445,3 +1445,810 @@ left: 162px;
 
 /* секция 12 */
 
+#mashaz h3{
+    font-size: 59px;
+    font-weight: 700;
+    top: 6159px;
+    left: 326px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+#text30{
+    letter-spacing: 1.06px;
+    line-height: 27px;
+    text-align: right;
+    top: 6237px;
+    left: 159px;
+}
+
+#text31{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
+    top: 6487px;
+    left: 730px;
+}
+
+#text32{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: right;
+    top: 6519px;
+    left: 536px;
+}
+
+#mashaz #pic46{
+ opacity: 0.5;
+    top: 6430px;
+    left: 475px;
+    transition: all ease 0.5s;
+}
+
+#mashaz #pic46:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#mashaz #pic47{
+ opacity: 0.5;
+    top: 6518px;
+    left: 425px;
+    transition: all ease 0.5s;
+}
+
+#mashaz #pic47:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#mashaz #pic48{
+ opacity: 0.5;
+    top: 6427px;
+    left: 353px;
+    transition: all ease 0.5s;
+}
+
+#mashaz #pic48:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#mashaz #pic49{
+ opacity: 0.5;
+    top: 6539px;
+    left: 302px;
+    transition: all ease 0.5s;
+}
+
+#mashaz #pic49:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#mashaz img{
+top: 6447px;
+left: 161px;
+}
+
+#mashaz2 img{
+top: 6168px;
+left: 850px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#mashaz2 img:hover {
+    animation: bounce 1s;
+}
+
+#mashaz2 p {
+    top: 6584px;
+    left: 1044px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    transition: all ease 0.5s;
+}
+
+#mashaz2 p:hover {
+    color: #04AE7B;
+}
+
+#mashaz2 a {
+    text-decoration: none;
+}
+
+/* секция 13 */
+
+#masham h3{
+    font-size: 59px;
+    font-weight: 700;
+    top: 6719px;
+    left: 578px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+#text33{
+    letter-spacing: 1.06px;
+    line-height: 27px;
+    text-align: left;
+    top: 6797px;
+    left: 576px;
+}
+
+#text34{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
+    top: 7047px;
+    left: 577px;
+}
+
+#text35{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
+    top: 7080px;
+    left: 577px;
+}
+
+#masham #pic51{
+ opacity: 0.5;
+    top: 7016px;
+    left: 842px;
+    transition: all ease 0.5s;
+}
+
+#masham #pic51:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#masham #pic52{
+ opacity: 0.5;
+    top: 7096px;
+    left: 853px;
+    transition: all ease 0.5s;
+}
+
+#masham #pic52:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#masham #pic53{
+ opacity: 0.5;
+    top: 7016px;
+    left: 953px;
+    transition: all ease 0.5s;
+}
+
+#masham #pic53:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#masham #pic54{
+ opacity: 0.5;
+    top: 7146px;
+    left: 1001px;
+    transition: all ease 0.5s;
+}
+
+#masham #pic54:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#masham img{
+top: 7046px;
+left: 1078px;
+}
+
+#masham2 img{
+top: 6727px;
+left: 161px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#masham2 img:hover {
+    animation: bounce 1s;
+}
+
+#masham2 p {
+    top: 7144px;
+    left: 162px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    transition: all ease 0.5s;
+}
+
+#masham2 p:hover {
+    color: #04AE7B;
+}
+
+#masham2 a {
+    text-decoration: none;
+}
+
+/* секция 14 */
+
+#anya h3{
+    font-size: 59px;
+    font-weight: 700;
+    top: 7316px;
+    left: 344px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+#text36{
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: right;
+    top: 7394px;
+    left: 174px;
+}
+
+#text37{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
+    top: 7644px;
+    left: 731px;
+}
+
+#text38{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: right;
+    top: 7676px;
+    left: 618px;
+}
+
+#anya #pic56{
+ opacity: 0.5;
+    top: 7676px;
+    left: 508px;
+    transition: all ease 0.5s;
+}
+
+#anya #pic56:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#anya #pic57{
+ opacity: 0.5;
+    top: 7588px;
+    left: 431px;
+    transition: all ease 0.5s;
+}
+
+#anya #pic57:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#anya #pic58{
+ opacity: 0.5;
+    top: 7688px;
+    left: 357px;
+    transition: all ease 0.5s;
+}
+
+#anya #pic58:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#anya #pic59{
+ opacity: 0.5;
+    top: 7588px;
+    left: 325px;
+    transition: all ease 0.5s;
+}
+
+#anya #pic59:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#anya img{
+top: 7603px;
+left: 162px;
+}
+
+#anya2 img{
+top: 7324px;
+left: 849px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#anya2 img:hover {
+    animation: bounce 1s;
+}
+
+#anya2 p {
+    top: 7741px;
+    left: 1043px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    transition: all ease 0.5s;
+}
+
+#anya2 p:hover {
+    color: #04AE7B;
+}
+
+#anya2 a {
+    text-decoration: none;
+}
+
+/* секция 15 */
+
+#mashad h3{
+    font-size: 59px;
+    font-weight: 700;
+    top: 7876px;
+    left: 576px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+#text39{
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: left;
+    top: 7954px;
+    left: 577px;
+}
+
+#text40{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
+    top: 8204px;
+    left: 577px;
+}
+
+#text41{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
+    top: 8236px;
+    left: 577px;
+}
+
+#mashad #pic61{
+ opacity: 0.5;
+    top: 8147px;
+    left: 787px;
+    transition: all ease 0.5s;
+}
+
+#mashad #pic61:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#mashad #pic62{
+ opacity: 0.5;
+    top: 8217px;
+    left: 878px;
+    transition: all ease 0.5s;
+}
+
+#mashad #pic62:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#mashad #pic63{
+ opacity: 0.5;
+    top: 8148px;
+    left: 949px;
+    transition: all ease 0.5s;
+}
+
+#mashad #pic63:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#mashad #pic64{
+ opacity: 0.5;
+    top: 8255px;
+    left: 967px;
+    transition: all ease 0.5s;
+}
+
+#mashad #pic64:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#mashad img{
+top: 8201px;
+left: 1051px;
+}
+
+#mashad2 img{
+top: 7884px;
+left: 161px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#mashad2 img:hover {
+    animation: bounce 1s;
+}
+
+#mashad2 p {
+    top: 8300px;
+    left: 162px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    transition: all ease 0.5s;
+}
+
+#mashad2 p:hover {
+    color: #04AE7B;
+}
+
+#mashad2 a {
+    text-decoration: none;
+}
+
+/* секция 16 */
+
+#arina h3{
+    font-size: 59px;
+    font-weight: 700;
+    top: 8474px;
+    left: 288px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+#text42{
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: right;
+    top: 8551px;
+    left: 165px;
+}
+
+#text43{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
+    top: 8801px;
+    left: 731px;
+}
+
+#text44{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: right;
+    top: 8833px;
+    left: 595px;
+}
+
+#arina #pic66{
+ opacity: 0.5;
+    top: 8850px;
+    left: 489px;
+    transition: all ease 0.5s;
+}
+
+#arina #pic66:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#arina #pic67{
+ opacity: 0.5;
+    top: 8735px;
+    left: 477px;
+    transition: all ease 0.5s;
+}
+
+#arina #pic67:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#arina #pic68{
+ opacity: 0.5;
+    top: 8819px;
+    left: 377px;
+    transition: all ease 0.5s;
+}
+
+#arina #pic68:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#arina #pic69{
+ opacity: 0.5;
+    top: 8730px;
+    left: 359px;
+    transition: all ease 0.5s;
+}
+
+#arina #pic69:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#arina img{
+top: 8759px;
+left: 161px;
+}
+
+#arina2 img{
+top: 8481px;
+left: 849px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#arina2 img:hover {
+    animation: bounce 1s;
+}
+
+#arina2 p {
+    top: 8898px;
+    left: 1070px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    transition: all ease 0.5s;
+}
+
+#arina2 p:hover {
+    color: #04AE7B;
+}
+
+#arina2 a {
+    text-decoration: none;
+}
+
+/* секция 17 */
+
+#veronika h3{
+    font-size: 59px;
+    font-weight: 700;
+    top: 9030px;
+    left: 577px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+#text45{
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: left;
+    top: 9107px;
+    left: 577px;
+}
+
+#text46{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
+    top: 9356px;
+    left: 577px;
+}
+
+#text47{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
+    top: 9388px;
+    left: 577px;
+}
+
+#veronika #pic71{
+ opacity: 0.5;
+    top: 9290px;
+    left: 729px;
+    transition: all ease 0.5s;
+}
+
+#veronika #pic71:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#veronika #pic72{
+ opacity: 0.5;
+    top: 9409px;
+    left: 780px;
+    transition: all ease 0.5s;
+}
+
+#veronika #pic72:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#veronika #pic73{
+ opacity: 0.5;
+    top: 9310px;
+    left: 889px;
+    transition: all ease 0.5s;
+}
+
+#veronika #pic73:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#veronika #pic74{
+ opacity: 0.5;
+    top: 9406px;
+    left: 906px;
+    transition: all ease 0.5s;
+}
+
+#veronika #pic74:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#veronika img{
+top: 9354px;
+left: 1041px;
+}
+
+#veronika2 img{
+top: 9037px;
+left: 161px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#veronika2 img:hover {
+    animation: bounce 1s;
+}
+
+#veronika2 p {
+    top: 9453px;
+    left: 162px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    transition: all ease 0.5s;
+}
+
+#veronika2 p:hover {
+    color: #04AE7B;
+}
+
+#veronika2 a {
+    text-decoration: none;
+}
