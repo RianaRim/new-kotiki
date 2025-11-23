@@ -1,0 +1,34 @@
+@media screen and (max-width: 1439px) {
+    #index {
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 1279px) {
+
+    #index section div {
+        width: 100%;
+    }
+
+    #index section img {
+        width: 100%;
+    }
+
+    .section header {
+        width: 100%;
+    }
+
+    .section header {
+    margin: 4vw 0;
+}
+}
+
+@media screen and (max-width: 1024px) {
+    section-1 img {
+        width: 30%;
+    }
+
+    header {
+        width: 50%;
+    }
+}

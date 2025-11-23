@@ -23,7 +23,7 @@ height: 52px;
 
 /* задний фон */
 
-body::after {
+/* body::after {
     content: "";
     position: absolute;
     top: 0;
@@ -33,7 +33,7 @@ body::after {
     height: 12384px;
     opacity: 0.2;
     z-index: -2;
-}
+} */
 
 /* свойства текста и ссылок */
 
@@ -362,8 +362,8 @@ transform: scale(1.1);
 
 #myself #pic4 {
     opacity: 0.5;
-    top: 1163px;
-    left: 965px;
+    top: 1160px;
+    left: 966px;
     transition: all ease 0.5s;
 }
 
@@ -2251,4 +2251,553 @@ left: 161px;
 
 #veronika2 a {
     text-decoration: none;
+}
+
+/* секция 18 */
+
+#cris h3{
+    font-size: 59px;
+    font-weight: 700;
+    top: 9626px;
+    left: 350px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+#text48{
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: right;
+    top: 9703px;
+    left: 188px;
+}
+
+#text49{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
+    top: 9953px;
+    left: 730px;
+}
+
+#text50{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: right;
+    top: 9985px;
+    left: 680px;
+}
+
+#cris #pic76{
+ opacity: 0.5;
+    top: 9913px;
+    left: 551px;
+    transition: all ease 0.5s;
+}
+
+#cris #pic76:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#cris #pic77{
+ opacity: 0.5;
+    top: 9882px;
+    left: 454px;
+    transition: all ease 0.5s;
+}
+
+#cris #pic77:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#cris #pic78{
+ opacity: 0.5;
+    top: 9954px;
+    left: 402px;
+    transition: all ease 0.5s;
+}
+
+#cris #pic78:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#cris #pic79{
+ opacity: 0.5;
+    top: 9887px;
+    left: 350px;
+    transition: all ease 0.5s;
+}
+
+#cris #pic79:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#cris img{
+top: 9881px;
+left: 161px;
+}
+
+#cris2 img{
+top: 9633px;
+left: 849px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#cris2 img:hover {
+    animation: bounce 1s;
+}
+
+#cris2 p {
+    top: 10050px;
+    left: 1010px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    transition: all ease 0.5s;
+}
+
+#cris2 p:hover {
+    color: #04AE7B;
+}
+
+#cris2 a {
+    text-decoration: none;
+}
+
+/* секция 19 */
+
+#dashap h3{
+    font-size: 59px;
+    font-weight: 700;
+    top: 10186px;
+    left: 577px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+#text51{
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: left;
+    top: 10264px;
+    left: 578px;
+}
+
+#text52{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
+    top: 10514px;
+    left: 577px;
+}
+
+#text53{
+    letter-spacing: 1px;
+    line-height: 26px;
+    font-style: italic;
+    font-weight: 500;
+    text-align: left;
+    top: 10546px;
+    left: 577px;
+}
+
+#dashap #pic81{
+ opacity: 0.5;
+    top: 10455px;
+    left: 791px;
+    transition: all ease 0.5s;
+}
+
+#dashap #pic81:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#dashap #pic82{
+ opacity: 0.5;
+    top: 10546px;
+    left: 791px;
+    transition: all ease 0.5s;
+}
+
+#dashap #pic82:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#dashap #pic83{
+ opacity: 0.5;
+    top: 10475px;
+    left: 897px;
+    transition: all ease 0.5s;
+}
+
+#dashap #pic83:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#dashap #pic84{
+ opacity: 0.5;
+    top: 10561px;
+    left: 961px;
+    transition: all ease 0.5s;
+}
+
+#dashap #pic84:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#dashap img{
+top: 10501px;
+left: 1054px;
+}
+
+#dashap2 img{
+top: 10195px;
+left: 161px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#dashap2 img:hover {
+    animation: bounce 1s;
+}
+
+#dashap2 p {
+    top: 10611px;
+    left: 161px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    transition: all ease 0.5s;
+}
+
+#dashap2 p:hover {
+    color: #04AE7B;
+}
+
+#dashap2 a {
+    text-decoration: none;
+}
+
+/* секция 20 */
+
+.section-20 #best {
+    font-size: 89px;
+    font-weight: 200;
+    font-style: italic;
+    letter-spacing: 4px;
+    left: 199px;
+    top: 10806px;
+    position: absolute;
+}
+
+#artmentor {
+    font-size: 89px;
+    font-weight: 700;
+    top: 10881px;
+    left: 511px;
+    letter-spacing: 4px;
+    position: absolute;
+}
+
+/* секция 21 */
+
+#dima {
+top: 11070px;
+left: 161px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#dima:hover {
+    animation: bounce 1s;
+}
+
+#lina {
+top: 11070px;
+left: 542px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#lina:hover {
+    animation: bounce 1s;
+}
+
+#anyam {
+top: 11070px;
+left: 923px;
+}
+
+@keyframes bounce {
+	0%, 20%, 60%, 100% {
+		transform: translateY(0);
+		transform: translateY(0);
+	}
+
+	40% {
+		transform: translateY(-20px);
+		transform: translateY(-20px);
+	}
+
+	80% {
+		transform: translateY(-10px);
+		transform: translateY(-10px);
+	}
+}
+
+#anyam:hover {
+    animation: bounce 1s;
+}
+
+#dima1 {
+    font-size: 59px;
+    font-weight: 700;
+    top: 11449px;
+    left: 244px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+#lina1 {
+    font-size: 59px;
+    font-weight: 700;
+    top: 11449px;
+    left: 626px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+#anyam1 {
+    font-size: 59px;
+    font-weight: 700;
+    top: 11449px;
+    left: 1033px;
+    letter-spacing: 2px;
+    position: absolute;
+}
+
+#text54 {
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: left;
+    top: 11511px;
+    left: 254px;
+}
+
+#text55 {
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: left;
+    top: 11511px;
+    left: 622px;
+}
+
+#text56 {
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: left;
+    top: 11511px;
+    left: 982px;
+}
+
+#text57 {
+    top: 11553px;
+    left: 254px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    transition: all ease 0.5s;
+}
+
+#text57:hover {
+    color: #04AE7B;
+}
+
+#text57 a {
+    text-decoration: none;
+}
+
+#text58 {
+    top: 11553px;
+    left: 623px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    transition: all ease 0.5s;
+}
+
+#text58:hover {
+    color: #04AE7B;
+}
+
+#text58 a {
+    text-decoration: none;
+}
+
+#text59 {
+    top: 11553px;
+    left: 1012px;
+    font-weight: 500;
+    letter-spacing: 1px;
+    font-style: italic;
+    transition: all ease 0.5s;
+}
+
+#text59:hover {
+    color: #04AE7B;
+}
+
+#text59 a {
+    text-decoration: none;
+}
+
+#pic86{
+ opacity: 0.5;
+    top: 11578px;
+    left: 278px;
+    transition: all ease 0.5s;
+}
+
+#pic86:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#pic87{
+ opacity: 0.5;
+    top: 11578px;
+    left: 652px;
+    transition: all ease 0.5s;
+}
+
+#pic87:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#pic88{
+ opacity: 0.5;
+    top: 11578px;
+    left: 1049px;
+    transition: all ease 0.5s;
+}
+
+#pic88:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+/* секция 22 */
+
+#rectangle {
+    width: 1441px;
+    height: 686px;
+    background-color: #131313;
+    translate: 0 11593px;
+}
+
+#footer h1 {
+    color: white;
+    font-size: 130px;
+    font-weight: 700;
+    font-style: normal;
+    letter-spacing: 4.9px;
+    left: 307px;
+    top: 11938px;
+    text-align: center;
+    position: absolute;
+}
+
+#footer h3 {
+    color: white;
+    font-size: 35px;
+    font-weight: 400;
+    top: 12078px;
+    left: 390px;
+    letter-spacing: 2.1px;
+    position: absolute;
+}
+
+#footer p {
+    color: white;
+    letter-spacing: 1px;
+    line-height: 27px;
+    text-align: center;
+    top: 12290px;
+    left: 459px;
 }
