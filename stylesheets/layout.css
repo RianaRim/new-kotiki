@@ -23,7 +23,7 @@ height: 52px;
 
 /* задний фон */
 
-/* body::after {
+body::after {
     content: "";
     position: absolute;
     top: 0;
@@ -33,7 +33,7 @@ height: 52px;
     height: 12384px;
     opacity: 0.2;
     z-index: -2;
-} */
+}
 
 /* свойства текста и ссылок */
 
@@ -81,6 +81,9 @@ a {
 
 #text2 a {
     text-decoration: none;
+}
+.section-1 {
+    height: 800px;
 }
 
 /* секция 1 */
@@ -253,11 +256,30 @@ img {
 
 /* секция 3 */
 
-#me img {
-    top: 862px;
-    left: 162px;
+#text3 {
+    margin: 1vw 0;
+    padding-right: 2.7vw;
 }
-
+#me img {
+   position: relative;
+   top: -3vw;
+   left: 1vw;
+}
+.section-3 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 2vw;
+}
+.about {
+    display: flex;
+}
+.about * {
+    position: relative;
+}
+.about > div {
+    width: 50%;
+}
 @keyframes bounce {
 	0%, 20%, 60%, 100% {
 		transform: translateY(0);
@@ -280,12 +302,19 @@ img {
 }
 
 #me p {
-    top: 1279px;
-    left: 162px;
+    /* top: 1279px;
+    left: 162px; */
     font-weight: 500;
     letter-spacing: 1px;
     font-style: italic;
     transition: all ease 0.5s;
+    position: relative;
+    top: -2vw;
+    left: 1vw;
+}
+#myself > * {
+    position: relative;
+    top: -50px;
 }
 
 #me p:hover {
@@ -295,40 +324,44 @@ img {
 #myself h3 {
     font-size: 59px;
     font-weight: 700;
-    top: 854px;
-    left: 576px;
+    /* top: 854px;
+    left: 576px; */
     letter-spacing: 2px;
-    position: absolute;
+    /* position: absolute; */
 }
 
 #myself #text3 {
     letter-spacing: 1px;
     line-height: 27px;
-    top: 934px;
-    left: 578px;
+    /* top: 934px;
+    left: 578px; */
 }
 
 #myself #text4 {
     letter-spacing: 1px;
     font-style: italic;
     font-weight: 500;
-    top: 1182px;
-    left: 578px;
+    /* top: 1182px;
+    left: 578px; */
+    top: 1.5vw;
 }
 
 #myself #text5 {
     letter-spacing: 1px;
     font-style: italic;
     font-weight: 500;
-    top: 1216px;
-    left: 578px;
+    /* top: 1216px;
+    left: 578px; */
+    top: 2vw;
 }
 
 #myself #pic1 {
     opacity: 0.5;
-    top: 1233px;
-    left: 790px;
+    /* top: 1233px;
+    left: 790px; */
     transition: all ease 0.5s;
+    top: 4vw;
+    left: -9.5vw;
 }
 
 #myself #pic1:hover {
@@ -338,9 +371,10 @@ transform: scale(1.1);
 
 #myself #pic2 {
     opacity: 0.5;
-    top: 1162px;
-    left: 870px;
+    /* top: 1162px;
+    left: 870px; */
      transition: all ease 0.5s;
+     left: -11vw;
 }
 
 #myself #pic2:hover {
@@ -350,9 +384,11 @@ transform: scale(1.1);
 
 #myself #pic3 {
     opacity: 0.5;
-    top: 1243px;
-    left: 955px;
+    /* top: 1243px;
+    left: 955px; */
     transition: all ease 0.5s;
+    top: 4.5vw;
+    left: -11.5vw;
 }
 
 #myself #pic3:hover {
@@ -362,9 +398,11 @@ transform: scale(1.1);
 
 #myself #pic4 {
     opacity: 0.5;
-    top: 1160px;
-    left: 966px;
+    /* top: 1160px;
+    left: 966px; */
     transition: all ease 0.5s;
+    top: -12vw;
+    left: 2vw;
 }
 
 #myself #pic4:hover {
@@ -373,8 +411,8 @@ transform: scale(1.1);
 }
 
 #myself #pic5 {
-    top: 1173px;
-    left: 1053px;
+    top: -7vw;
+    left: 2vw;
 }
 
 #me a {
@@ -386,26 +424,32 @@ transform: scale(1.1);
 #ilya h3{
     font-size: 59px;
     font-weight: 700;
-    top: 1442px;
-    left: 372px;
+    /* top: 1442px;
+    left: 372px; */
     letter-spacing: 2px;
     position: absolute;
+    left: 25vw;
+}
+
+#text6 {
+    margin: 1vw 0;
+    padding-right: 2.7vw;
 }
 
 #text6{
     letter-spacing: 1px;
     line-height: 27px;
     text-align: right;
-    top: 1519px;
-    left: 154px;
+    /* top: 1519px;
+    left: 154px; */
 }
 
 #text7{
      letter-spacing: 1px;
     font-style: italic;
     font-weight: 500;
-    top: 1770px;
-    left: 730px;
+    /* top: 1770px;
+    left: 730px; */
 }
 
 #text8{
@@ -413,14 +457,14 @@ transform: scale(1.1);
     font-style: italic;
     font-weight: 500;
     text-align: right;
-    top: 1803px;
-    left: 608px;
+    /* top: 1803px;
+    left: 608px; */
 }
 
 #ilya #pic6{
  opacity: 0.5;
-    top: 1751px;
-    left: 329px;
+    /* top: 1751px;
+    left: 329px; */
     transition: all ease 0.5s;
 }
 
@@ -431,8 +475,8 @@ transform: scale(1.1);
 
 #ilya #pic7{
  opacity: 0.5;
-    top: 1750px;
-    left: 394px;
+    /* top: 1750px;
+    left: 394px; */
     transition: all ease 0.5s;
 }
 
@@ -443,8 +487,8 @@ transform: scale(1.1);
 
 #ilya #pic8{
  opacity: 0.5;
-    top: 1791px;
-    left: 471px;
+    /* top: 1791px;
+    left: 471px; */
     transition: all ease 0.5s;
 }
 
@@ -455,8 +499,8 @@ transform: scale(1.1);
 
 #ilya #pic9{
  opacity: 0.5;
-    top: 1733px;
-    left: 520px;
+    /* top: 1733px;
+    left: 520px; */
     transition: all ease 0.5s;
 }
 
@@ -466,13 +510,34 @@ transform: scale(1.1);
 }
 
 #ilya #pic10 {
-    top: 1760px;
-    left: 161px;
+    /* top: 1760px;
+    left: 161px; */
 }
 
 #ilya2 img{
-top: 1450px;
-left: 850px;
+/* top: 1450px;
+left: 850px; */
+top: -2vw;
+}
+
+.section-4 {
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    gap: 2vw;
+}
+.about2 {
+    display: flex;
+}
+.about2 * {
+    position: relative;
+}
+.about2 > div {
+    width: 50%;
+}
+
+#ilya2 > * {
+    position: relative;
 }
 
 @keyframes bounce {
@@ -497,8 +562,8 @@ left: 850px;
 }
 
 #ilya2 p {
-    top: 1867px;
-    left: 1066px;
+    /* top: 1867px;
+    left: 1066px; */
     font-weight: 500;
     letter-spacing: 1px;
     font-style: italic;
