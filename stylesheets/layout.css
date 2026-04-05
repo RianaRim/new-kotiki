@@ -379,166 +379,160 @@ transform: scale(1.1);
     width: 100%;
     height: 38vw;
     display: flex;
-    flex-direction: row;
+    flex-direction: row-reverse;
     position: relative;
 }
 
-#ilya h3{
-    font-size: 59px;
+.contentDiv_2 {
+    width: 100%;
+    height: 36vw;
+    display: flex;
+    flex-direction: column;
+}
+
+#ilya {
+    width: 100%;
+    height: 22vw;
+}
+
+#ilya h3 {
+    font-size: 3.85vw;
+    margin-top: 1vw;
+    margin-left: 24vw;
     font-weight: 700;
-    /* top: 1442px;
-    left: 372px; */
-    letter-spacing: 2px;
-    position: absolute;
-    left: 25vw;
+    letter-spacing: 0.13vw;
 }
 
 #text6 {
+    text-align: right;
+    letter-spacing: 0.05vw;
+    line-height: 1.75vw;
     margin: 1vw 0;
     padding-right: 2.7vw;
 }
 
-#text6{
-    letter-spacing: 1px;
-    line-height: 27px;
-    text-align: right;
-    /* top: 1519px;
-    left: 154px; */
+.about2 {
+    width: 95%;
+    height: 14vw;
+    display: flex;
+    flex-direction: row-reverse;
 }
 
-#text7{
-     letter-spacing: 1px;
+.aboutLinks2 {
+    position: relative;
+    width: 100%;
+}
+
+#pic6 {
+    width: 18%;
+    opacity: 0.5;
+    transition: all ease 0.5s;
+    top: 0vw;
+    left: 21.3vw;
+}
+
+#pic6:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#pic7 {
+    width: 18%;
+    opacity: 0.5;
+    transition: all ease 0.5s;
+    top: 0vw;
+    left: 25.6vw;
+}
+
+#pic7:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#pic8 {
+    width: 12.5%;
+    opacity: 0.5;
+    transition: all ease 0.5s;
+    top: 3vw;
+    left: 30.6vw;
+}
+
+#pic8:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#pic9 {
+    width: 20%;
+    opacity: 0.5;
+    transition: all ease 0.5s;
+    top: -1vw;
+    left: 33.6vw;
+}
+
+#pic9:hover {
+opacity: 1;
+transform: scale(1.1);
+}
+
+#pic10 {
+    width: 29.4%;
+    top: 0.5vw;
+    left: 10.4vw;
+}
+
+.aboutBlockquote2 {
+    width: 45%;
+}
+
+#text7 {
+    text-align: right;
+    margin-top: 1.4vw;
+    letter-spacing: 0.05vw;
     font-style: italic;
     font-weight: 500;
-    /* top: 1770px;
-    left: 730px; */
 }
 
 #text8{
-    letter-spacing: 1px;
+    text-align: right;
+    letter-spacing: 0.05vw;
     font-style: italic;
     font-weight: 500;
-    text-align: right;
-    /* top: 1803px;
-    left: 608px; */
+    margin-top: 0.5vw;
 }
 
-#ilya #pic6{
- opacity: 0.5;
-    /* top: 1751px;
-    left: 329px; */
-    transition: all ease 0.5s;
+#ilya2 {
+    width: 73.5%;
+    height: 36vw;
 }
 
-#ilya #pic6:hover {
-opacity: 1;
-transform: scale(1.1);
+#ilya2 a {
+    text-decoration: none;
 }
 
-#ilya #pic7{
- opacity: 0.5;
-    /* top: 1750px;
-    left: 394px; */
-    transition: all ease 0.5s;
-}
-
-#ilya #pic7:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#ilya #pic8{
- opacity: 0.5;
-    /* top: 1791px;
-    left: 471px; */
-    transition: all ease 0.5s;
-}
-
-#ilya #pic8:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#ilya #pic9{
- opacity: 0.5;
-    /* top: 1733px;
-    left: 520px; */
-    transition: all ease 0.5s;
-}
-
-#ilya #pic9:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-/* #ilya #pic10 {
-    top: 1760px;
-    left: 161px;
-} */
-
-#ilya2 img{
-/* top: 1450px;
-left: 850px; */
-top: -2vw;
-}
-
-.section-4 {
-    width: 80%;
-    margin: 0 auto;
-    display: flex;
-    gap: 2vw;
-}
-.about2 {
-    display: flex;
-}
-.about2 * {
-    position: relative;
-}
-.about2 > div {
-    width: 50%;
-}
-
-#ilya2 > * {
-    position: relative;
-}
-
-@keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-		transform: translateY(0);
-	}
-
-	40% {
-		transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
-
-	80% {
-		transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
+#ilya2 img {
+   width: 26.2%;
+   padding-top: 1.5vw;
+   margin-left: -1.55vw;
 }
 
 #ilya2 img:hover {
     animation: bounce 1s;
 }
 
-#ilya2 p {
-    /* top: 1867px;
-    left: 1066px; */
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-style: italic;
-    transition: all ease 0.5s;
-}
-
 #ilya2 p:hover {
     color: #04AE7B;
 }
 
-#ilya2 a {
-    text-decoration: none;
+#link_2 {
+    font-weight: 500;
+    letter-spacing: 0.05vw;
+    font-style: italic;
+    transition: all ease 0.5s;
+    margin-top: 28.5vw;
+    margin-left: 12.3vw;
 }
+
 
 /* секция 5 */
 
