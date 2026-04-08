@@ -1,49 +1,48 @@
-
 /* ________________общие стили для страницы_____________________ */
 
 * {
-    box-sizing: border-box;
+  box-sizing: border-box;
 }
 html {
-    scroll-behavior: smooth;
+  scroll-behavior: smooth;
 }
 body {
-    width: 100%;
-    display: block;
-    margin: 0 auto;
-    overflow-x: hidden;
-    font-family: 'Non Bureau Extended', 'Non Bureau';
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  display: block;
+  margin: 0 auto;
+  overflow-x: hidden;
+  font-family: 'Non Bureau Extended', 'Non Bureau';
+  display: flex;
+  flex-direction: column;
 }
 
 /* __________________задний фон____________________ */
 
 body::after {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    background-image: url(../images/новый\ сайт\ для\ артдирекшена.png);
-    width: 100%;
-    height: 12384px;
-    opacity: 0.2;
-    z-index: -2;
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-image: url(../images/новый\ сайт\ для\ артдирекшена.png);
+  width: 100%;
+  height: 12384px;
+  opacity: 0.2;
+  z-index: -2;
 }
 
 /* ______________свойства текста и ссылок_________________ */
 
 p {
-    color: #131313;
-    font-size: 1.65vw;
+  color: #131313;
+  font-size: 1.65vw;
 }
 
-h1+h2+h3 {
-    color: #131313;
+h1 + h2 + h3 {
+  color: #131313;
 }
 
 a {
-    color: inherit;
+  color: inherit;
 }
 
 /* ________________стили для секций___________________ */
@@ -51,2798 +50,1739 @@ a {
 /* ______________шапка________________ */
 
 .header {
-display: flex;
-flex-direction: row;
-margin-top: 3.5vw;
-height: 3.5vw;
+  display: flex;
+  flex-direction: row;
+  margin-top: 3.5vw;
+  height: 3.5vw;
 }
 
 #text1 {
-    margin-left: 10.4vw;
-    font-weight: 300;
-    transition: all ease 0.5s;
+  margin-left: 10.4vw;
+  font-weight: 300;
+  transition: all ease 0.5s;
 }
 
 #text1:hover {
-    color: #04AE7B;
+  color: #04ae7b;
 }
 
 #text1 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #text2 {
-    margin-left: 22.4vw;
-    font-weight: 300;
-    transition: all ease 0.5s;
+  margin-left: 22.4vw;
+  font-weight: 300;
+  transition: all ease 0.5s;
 }
 
 #text2:hover {
-    color: #04AE7B;
+  color: #04ae7b;
 }
 
 #text2 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 /* _______________секция 1_______________ */
 
 .section_1 {
-    height: 33vw;
+  height: 33vw;
 }
 
 .mainDiv {
-    width: 100%;
-    height: 33vw;
+  width: 100%;
+  height: 33vw;
 }
 
 img {
-    position: absolute;
+  position: absolute;
 }
 
 #genious {
-    font-size: 6.5vw;
-    font-weight: 200;
-    font-style: italic;
-    letter-spacing: 0.25vw;
-    left: 10.5vw;
-    top: 7.2vw;
-    text-align: center;
-    position: absolute;
+  font-size: 6.5vw;
+  font-weight: 200;
+  font-style: italic;
+  letter-spacing: 0.25vw;
+  left: 10.5vw;
+  top: 7.2vw;
+  text-align: center;
+  position: absolute;
 }
 #artdirect {
-    font-size: 6.5vw;
-    font-weight: 200;
-    font-style: italic;
-    left: 10.5vw;
-    top: 13.9vw;
-    text-align: center;
-    position: absolute;
+  font-size: 6.5vw;
+  font-weight: 200;
+  font-style: italic;
+  left: 10.5vw;
+  top: 13.9vw;
+  text-align: center;
+  position: absolute;
 }
 
 .section_1 h2 {
-    font-size: 13.35vw;
-    font-weight: 700;
-    left: 41vw;
-    top: 6.5vw;
-    text-align: right;
-    position: absolute;
+  font-size: 13.35vw;
+  font-weight: 700;
+  left: 41vw;
+  top: 6.5vw;
+  text-align: right;
+  position: absolute;
 }
 
 #best {
-    font-size: 2.27vw;
-    font-weight: 300;
-    top: 22vw;
-    left: 10.5vw;
-    position: absolute;
+  font-size: 2.27vw;
+  font-weight: 300;
+  top: 22vw;
+  left: 10.5vw;
+  position: absolute;
 }
 #year {
-    font-size: 2.3vw;
-    font-weight: 300;
-    top: 27.4vw;
-    left: 10.5vw;
-    position: absolute;
+  font-size: 2.3vw;
+  font-weight: 300;
+  top: 27.4vw;
+  left: 10.5vw;
+  position: absolute;
 }
 #love {
-    font-size: 2.27vw;
-    font-weight: 300;
-    top: 30.4vw;
-    left: 10.5vw;
-    letter-spacing: -0.2px;
-    position: absolute;
+  font-size: 2.27vw;
+  font-weight: 300;
+  top: 30.4vw;
+  left: 10.5vw;
+  letter-spacing: -0.2px;
+  position: absolute;
 }
 
 #bob1 {
-    width: 8%;
-    left: 37vw;
-    top: 22.5vw;
-    transition: all ease 1s;
+  width: 8%;
+  left: 37vw;
+  top: 22.5vw;
+  transition: all ease 1s;
 }
 
 #bob1:hover {
-    animation: bounce 1s;
+  animation: bounce 1s;
 }
 
 #bob2 {
-    width: 8%;
-    left: 59.2vw;
-    top: 15vw;
-    transition: all ease 1s;
+  width: 8%;
+  left: 59.2vw;
+  top: 15vw;
+  transition: all ease 1s;
 }
 
 #bob2:hover {
-    animation: bounce 1s;
+  animation: bounce 1s;
 }
 
 #bob3 {
-    width: 8%;
-    left: 81vw;
-    top: 27vw;
-    transition: all ease 1s;
+  width: 8%;
+  left: 81vw;
+  top: 27vw;
+  transition: all ease 1s;
 }
 
 #bob3:hover {
-    animation: bounce 1s;
+  animation: bounce 1s;
 }
 
 #bee {
-    width: 51%;
-    top: 4vw;
-    left: -37vw;
-    transition: all ease 1s;
+  width: 51%;
+  top: 4vw;
+  left: -37vw;
+  transition: all ease 1s;
 }
 
 #bee:hover {
-    left: 0;
+  left: 0;
 }
 
 /* _______________секция 2_____________ */
 .section_2 {
-    width: 100%;
-    height: 15vw;
+  width: 100%;
+  height: 15vw;
 }
 
 #sostav {
-    font-size: 5.8vw;
-    font-weight: 200;
-    font-style: italic;
-    letter-spacing: 0.25vw;
-    margin-left: 10.5vw;
-    margin-top: 1vw;
+  font-size: 5.8vw;
+  font-weight: 200;
+  font-style: italic;
+  letter-spacing: 0.25vw;
+  margin-left: 10.5vw;
+  margin-top: 1vw;
 }
 
 #artdirect2 {
-    font-size: 5.8vw;
-    font-weight: 700;
-    margin-top: -1vw;
-    margin-left: 28.4vw;
-    letter-spacing: 4px;
+  font-size: 5.8vw;
+  font-weight: 700;
+  margin-top: -1vw;
+  margin-left: 28.4vw;
+  letter-spacing: 4px;
 }
 
 /* ______________секция 3_______________ */
 .section_3 {
-    width: 100%;
-    height: 38vw;
-    display: flex;
-    flex-direction: row;
-    position: relative;
+  width: 100%;
+  height: 38vw;
+  display: flex;
+  flex-direction: row;
+  position: relative;
 }
 
 #me {
-    width: 61%;
-    height: 36vw;
+  width: 61%;
+  height: 36vw;
 }
 
 #me a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #me img {
-   width: 36.9%;
-   padding-left: 10vw;
-   padding-top: 1vw;
+  width: 36.9%;
+  padding-left: 10.5vw;
+  padding-top: 1vw;
 }
 
 #me img:hover {
-    animation: bounce 1s;
+  animation: bounce 1s;
 }
 
 #me p:hover {
-    color: #04AE7B;
+  color: #04ae7b;
 }
 
 #link {
-    font-weight: 500;
-    letter-spacing: 0.05vw;
-    font-style: italic;
-    transition: all ease 0.5s;
-    margin-top: 28.2vw;
-    margin-left: 10.5vw;
+  font-weight: 500;
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  transition: all ease 0.5s;
+  margin-top: 28.2vw;
+  margin-left: 10.5vw;
 }
 
 .contentDiv_1 {
-    width: 100%;
-    height: 36vw;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  height: 36vw;
+  display: flex;
+  flex-direction: column;
 }
 
 #myself {
-    width: 100%;
-    height: 22vw;
+  width: 100%;
+  height: 22vw;
 }
 
 #lera {
-    font-size: 3.85vw;
-    margin-top: 0.6vw;
-    font-weight: 700;
-    letter-spacing: 0.13vw;
+  font-size: 3.85vw;
+  margin-top: 0.6vw;
+  font-weight: 700;
+  letter-spacing: 0.13vw;
 }
 
 #text3 {
-    margin-top: 1.4vw;
-    padding-right: 17vw;
-    letter-spacing: 0.05vw;
-    line-height: 1.75vw;
+  margin-top: 1.4vw;
+  padding-right: 17vw;
+  letter-spacing: 0.05vw;
+  line-height: 1.75vw;
 }
 
 .about {
-    width: 100%;
-    height: 14vw;
-    display: flex;
-    flex-direction: row;
+  width: 100%;
+  height: 14vw;
+  display: flex;
+  flex-direction: row;
 }
 
 .aboutLinks {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 #pic1 {
-    width: 16%;
-    opacity: 0.5;
-    transition: all ease 0.5s;
-    top: 3.3vw;
-    left: -5.3vw;
+  width: 16%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 3.3vw;
+  left: -5.3vw;
 }
 
 #pic1:hover {
-opacity: 1;
-transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 #pic2 {
-    width: 14%;
-    opacity: 0.5;
-    transition: all ease 0.5s;
-    top: -1.2vw;
-    left: 0.7vw;
+  width: 14%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: -1.2vw;
+  left: 0.7vw;
 }
 
 #pic2:hover {
-opacity: 1;
-transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 #pic3 {
-    width: 18%;
-    opacity: 0.5;
-    transition: all ease 0.5s;
-    top: 4vw;
-    left: 5.7vw;
+  width: 18%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 4vw;
+  left: 5.7vw;
 }
 
 #pic3:hover {
-opacity: 1;
-transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 #pic4 {
-    width: 13%;
-    opacity: 0.5;
-    transition: all ease 0.5s;
-    top: -1.5vw;
-    left: 6.3vw;
+  width: 13%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: -1.5vw;
+  left: 6.3vw;
 }
 
 #pic4:hover {
-opacity: 1;
-transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 #pic5 {
-    width: 30%;
-    top: -0.5vw;
-    left: 12vw;
+  width: 30%;
+  top: -0.5vw;
+  left: 12vw;
 }
 
 .aboutBlockquote {
-    width: 45%;
+  width: 45%;
 }
 
 #text4 {
-    letter-spacing: 0.05vw;
-    font-style: italic;
-    font-weight: 500;
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  font-weight: 500;
 }
 
 #text5 {
-    letter-spacing: 0.05vw;
-    font-style: italic;
-    font-weight: 500;
-    margin-top: 0.5vw;
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  font-weight: 500;
+  margin-top: 0.5vw;
 }
-
 
 /* ___________________секция 4_________________ */
 .section_4 {
-    width: 100%;
-    height: 38vw;
-    display: flex;
-    flex-direction: row-reverse;
-    position: relative;
+  width: 100%;
+  height: 38vw;
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
 }
 
 .contentDiv_2 {
-    width: 100%;
-    height: 36vw;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  height: 36vw;
+  display: flex;
+  flex-direction: column;
 }
 
 #ilya {
-    width: 100%;
-    height: 22vw;
+  width: 100%;
+  height: 22vw;
 }
 
 #ilya h3 {
-    font-size: 3.85vw;
-    margin-top: 1vw;
-    margin-left: 24vw;
-    font-weight: 700;
-    letter-spacing: 0.13vw;
+  font-size: 3.85vw;
+  margin-top: 1vw;
+  margin-left: 24vw;
+  font-weight: 700;
+  letter-spacing: 0.13vw;
 }
 
 #text6 {
-    text-align: right;
-    letter-spacing: 0.05vw;
-    line-height: 1.75vw;
-    margin: 1vw 0;
-    padding-right: 2.7vw;
+  text-align: right;
+  letter-spacing: 0.05vw;
+  line-height: 1.75vw;
+  margin: 1vw 0;
+  padding-right: 2.7vw;
 }
 
 .about2 {
-    width: 95%;
-    height: 14vw;
-    display: flex;
-    flex-direction: row-reverse;
+  width: 95%;
+  height: 14vw;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
 .aboutLinks2 {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 #pic6 {
-    width: 18%;
-    opacity: 0.5;
-    transition: all ease 0.5s;
-    top: 0vw;
-    left: 21.3vw;
+  width: 18%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 0vw;
+  left: 21.3vw;
 }
 
 #pic6:hover {
-opacity: 1;
-transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 #pic7 {
-    width: 18%;
-    opacity: 0.5;
-    transition: all ease 0.5s;
-    top: 0vw;
-    left: 25.6vw;
+  width: 18%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 0vw;
+  left: 25.6vw;
 }
 
 #pic7:hover {
-opacity: 1;
-transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 #pic8 {
-    width: 12.5%;
-    opacity: 0.5;
-    transition: all ease 0.5s;
-    top: 3vw;
-    left: 30.6vw;
+  width: 12.5%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 3vw;
+  left: 30.6vw;
 }
 
 #pic8:hover {
-opacity: 1;
-transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 #pic9 {
-    width: 20%;
-    opacity: 0.5;
-    transition: all ease 0.5s;
-    top: -1vw;
-    left: 33.6vw;
+  width: 20%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: -1vw;
+  left: 33.6vw;
 }
 
 #pic9:hover {
-opacity: 1;
-transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 #pic10 {
-    width: 29.4%;
-    top: 0.5vw;
-    left: 10.4vw;
+  width: 29.4%;
+  top: 0.5vw;
+  left: 10.4vw;
 }
 
 .aboutBlockquote2 {
-    width: 45%;
+  width: 45%;
 }
 
 #text7 {
-    text-align: right;
-    margin-top: 1.4vw;
-    letter-spacing: 0.05vw;
-    font-style: italic;
-    font-weight: 500;
+  text-align: right;
+  margin-top: 1.4vw;
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  font-weight: 500;
 }
 
-#text8{
-    text-align: right;
-    letter-spacing: 0.05vw;
-    font-style: italic;
-    font-weight: 500;
-    margin-top: 0.5vw;
+#text8 {
+  text-align: right;
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  font-weight: 500;
+  margin-top: 0.5vw;
 }
 
 #ilya2 {
-    width: 73.5%;
-    height: 36vw;
+  width: 73.5%;
+  height: 36vw;
 }
 
 #ilya2 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #ilya2 img {
-   width: 26.2%;
-   padding-top: 1.5vw;
-   margin-left: -1.55vw;
+  width: 26.2%;
+  padding-top: 1.5vw;
+  margin-left: -1.55vw;
 }
 
 #ilya2 img:hover {
-    animation: bounce 1s;
+  animation: bounce 1s;
 }
 
 #ilya2 p:hover {
-    color: #04AE7B;
+  color: #04ae7b;
 }
 
 #link_2 {
-    font-weight: 500;
-    letter-spacing: 0.05vw;
-    font-style: italic;
-    transition: all ease 0.5s;
-    margin-top: 28.5vw;
-    margin-left: 12.3vw;
+  font-weight: 500;
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  transition: all ease 0.5s;
+  margin-top: 28.5vw;
+  margin-left: 12.3vw;
 }
 
-
-/* секция 5 */
+/* __________________секция 5__________________ */
 
 .section_5 {
-    width: 100%;
-    height: 38vw;
-    display: flex;
-    flex-direction: row;
-    position: relative;
+  width: 100%;
+  height: 38vw;
+  display: flex;
+  flex-direction: row;
+  position: relative;
 }
 
 #borya2 {
-    width: 61%;
-    height: 36vw;
+  width: 61%;
+  height: 36vw;
 }
 
 #borya2 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #borya2 img {
-   width: 37%;
-   padding-left: 10vw;
-   padding-top: 2vw;
+  width: 37%;
+  padding-left: 10.5vw;
+  padding-top: 2.4vw;
 }
 
 #borya2 img:hover {
-    animation: bounce 1s;
+  animation: bounce 1s;
 }
 
 #borya2 p:hover {
-    color: #04AE7B;
+  color: #04ae7b;
 }
 
 #link_3 {
-    font-weight: 500;
-    letter-spacing: 0.05vw;
-    font-style: italic;
-    transition: all ease 0.5s;
-    margin-top: 29.6vw;
-    margin-left: 10.5vw;
+  font-weight: 500;
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  transition: all ease 0.5s;
+  margin-top: 29.6vw;
+  margin-left: 10.5vw;
 }
 
 .contentDiv_3 {
-    width: 100%;
-    height: 36vw;
-    display: flex;
-    flex-direction: column;
+  width: 100%;
+  height: 36vw;
+  display: flex;
+  flex-direction: column;
 }
 
 #borya {
-    width: 100%;
-    height: 22vw;
+  width: 100%;
+  height: 22vw;
 }
 
 #borya h3 {
-    font-size: 3.85vw;
-    margin-top: 2vw;
-    margin-left: 0vw;
-    font-weight: 700;
-    letter-spacing: 0.13vw;
+  font-size: 3.85vw;
+  margin-top: 2vw;
+  margin-left: 0vw;
+  font-weight: 700;
+  letter-spacing: 0.13vw;
 }
 
 #text9 {
-    margin-top: 1.4vw;
-    padding-right: 16vw;
-    letter-spacing: 0.05vw;
-    line-height: 1.75vw;
+  margin-top: 1.4vw;
+  padding-right: 16vw;
+  letter-spacing: 0.05vw;
+  line-height: 1.75vw;
 }
 
 .about3 {
-    width: 100%;
-    height: 14vw;
-    display: flex;
-    flex-direction: row;
+  width: 100%;
+  height: 14vw;
+  display: flex;
+  flex-direction: row;
 }
 
 .aboutLinks3 {
-    position: relative;
-    width: 100%;
+  position: relative;
+  width: 100%;
 }
 
 #pic11 {
-    width: 11.6%;
-    opacity: 0.5;
-    transition: all ease 0.5s;
-    top: 0.2vw;
-    left: -7.3vw;
+  width: 11.6%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 0.2vw;
+  left: -7.3vw;
 }
 
 #pic11:hover {
-opacity: 1;
-transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 #pic12 {
-    width: 21%;
-    opacity: 0.5;
-    transition: all ease 0.5s;
-    top: 3.8vw;
-    left: -4.2vw;
+  width: 21%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 3.8vw;
+  left: -4.2vw;
 }
 
 #pic12:hover {
-opacity: 1;
-transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 #pic13 {
-    width: 12.4%;
-    opacity: 0.5;
-    transition: all ease 0.5s;
-    top: 9vw;
-    left: 3.8vw;
+  width: 12.4%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 9vw;
+  left: 3.8vw;
 }
 
 #pic13:hover {
-opacity: 1;
-transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 #pic14 {
-    width: 17%;
-    opacity: 0.5;
-    transition: all ease 0.5s;
-    top: 0.8vw;
-    left: 5.3vw;
+  width: 17%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 0.8vw;
+  left: 5.3vw;
 }
 
 #pic14:hover {
-opacity: 1;
-transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 #pic15 {
-    width: 36.5%;
-    top: 2.5vw;
-    left: 10.3vw;
+  width: 36.5%;
+  top: 2.5vw;
+  left: 10.3vw;
 }
 
 .aboutBlockquote3 {
-    width: 45%;
+  width: 45%;
 }
 
 #text10 {
-    margin-top: 3.8vw;
-    letter-spacing: 0.05vw;
-    font-style: italic;
-    font-weight: 500;
+  margin-top: 3.8vw;
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  font-weight: 500;
 }
 
 #text11 {
-    letter-spacing: 0.05vw;
-    font-style: italic;
-    font-weight: 500;
-    margin-top: 0.5vw;
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  font-weight: 500;
+  margin-top: 0.5vw;
 }
 
-/* секция 6 */
-
-#taras h3{
-    font-size: 59px;
-    font-weight: 700;
-    top: 2645px;
-    left: 404px;
-    letter-spacing: 2px;
-    position: absolute;
+/* __________________секция 6__________________ */
+.section_6 {
+  width: 100%;
+  height: 38vw;
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
 }
 
-#text12{
-    letter-spacing: 1px;
-    line-height: 27px;
-    text-align: right;
-    top: 2722px;
-    left: 156px;
+#taras2 {
+  width: 79%;
+  height: 36vw;
 }
 
-#text13{
-     letter-spacing: 1px;
-    font-style: italic;
-    font-weight: 500;
-    top: 2972px;
-    left: 731px;
+#taras2 a {
+  text-decoration: none;
 }
 
-#text14{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: right;
-    top: 3004px;
-    left: 621px;
-}
-
-#taras #pic16{
- opacity: 0.5;
-    top: 2931px;
-    left: 555px;
-    transition: all ease 0.5s;
-}
-
-#taras #pic16:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#taras #pic17{
- opacity: 0.5;
-    top: 2967px;
-    left: 453px;
-    transition: all ease 0.5s;
-}
-
-#taras #pic17:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#taras #pic18{
- opacity: 0.5;
-    top: 2932px;
-    left: 362px;
-    transition: all ease 0.5s;
-}
-
-#taras #pic18:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#taras #pic19{
- opacity: 0.5;
-    top: 3037px;
-    left: 318px;
-    transition: all ease 0.5s;
-}
-
-#taras #pic19:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#taras img{
-top: 2939px;
-left: 161px;
-}
-
-#taras2 img{
-top: 2652px;
-left: 850px;
-}
-
-@keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-		transform: translateY(0);
-	}
-
-	40% {
-		transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
-
-	80% {
-		transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
+#taras2 img {
+  width: 26.3%;
+  padding-left: 0vw;
+  padding-top: 3.7vw;
 }
 
 #taras2 img:hover {
-    animation: bounce 1s;
-}
-
-#taras2 p {
-    top: 3068px;
-    left: 1065px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-style: italic;
-    transition: all ease 0.5s;
+  animation: bounce 1s;
 }
 
 #taras2 p:hover {
-    color: #04AE7B;
-}
-#taras2 a {
-    text-decoration: none;
+  color: #04ae7b;
 }
 
-/* секция 7 */
-
-#grisha h3{
-    font-size: 59px;
-    font-weight: 700;
-    top: 3216px;
-    left: 577px;
-    letter-spacing: 2px;
-    position: absolute;
+#link_4 {
+  font-weight: 500;
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  transition: all ease 0.5s;
+  margin-top: 30.8vw;
+  margin-left: 14vw;
 }
 
-#text15{
-    letter-spacing: 1px;
-    line-height: 27px;
-    text-align: left;
-    top: 3294px;
-    left: 577px;
+.contentDiv_4 {
+  width: 100%;
+  height: 36vw;
+  display: flex;
+  flex-direction: column;
 }
 
-#text16{
-     letter-spacing: 1px;
-    font-style: italic;
-    font-weight: 500;
-    top: 3545px;
-    left: 577px;
+#taras {
+  width: 100%;
+  height: 22vw;
 }
 
-#text17{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: left;
-    top: 3577px;
-    left: 577px;
+#taras h3 {
+  font-size: 3.85vw;
+  margin-top: 3.2vw;
+  margin-left: 26.3vw;
+  font-weight: 700;
+  letter-spacing: 0.13vw;
 }
 
-#grisha #pic21{
- opacity: 0.5;
-    top: 3481px;
-    left: 813px;
-    transition: all ease 0.5s;
+#text12 {
+  text-align: right;
+  margin-top: 1.2vw;
+  padding-right: 1vw;
+  letter-spacing: 0.05vw;
+  line-height: 1.75vw;
 }
 
-#grisha #pic21:hover {
-opacity: 1;
-transform: scale(1.1);
+.about4 {
+  width: 100%;
+  height: 14vw;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
-#grisha #pic22{
- opacity: 0.5;
-    top: 3597px;
-    left: 858px;
-    transition: all ease 0.5s;
+.aboutLinks4 {
+  position: relative;
+  width: 100%;
 }
 
-#grisha #pic22:hover {
-opacity: 1;
-transform: scale(1.1);
+#pic16 {
+  width: 13.8%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: -0.3vw;
+  left: 36.3vw;
 }
 
-#grisha #pic23{
- opacity: 0.5;
-    top: 3497px;
-    left: 909px;
-    transition: all ease 0.5s;
+#pic16:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }
 
-#grisha #pic23:hover {
-opacity: 1;
-transform: scale(1.1);
+#pic17 {
+  width: 25.1%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 1.8vw;
+  left: 29.4vw;
 }
 
-#grisha #pic24{
- opacity: 0.5;
-    top: 3596px;
-    left: 955px;
-    transition: all ease 0.5s;
+#pic17:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }
 
-#grisha #pic24:hover {
-opacity: 1;
-transform: scale(1.1);
+#pic18 {
+  width: 18.4%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: -0.3vw;
+  left: 23.7vw;
 }
 
-#grisha img{
-top: 3514px;
-left: 1011px;
+#pic18:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }
 
-#grisha2 img{
-top: 3224px;
-left: 162px;
+#pic19 {
+  width: 12.3%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 6.8vw;
+  left: 20.8vw;
 }
 
-@keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-		transform: translateY(0);
-	}
-
-	40% {
-		transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
-
-	80% {
-		transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
+#pic19:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }
 
-#grisha2 img:hover {
-    animation: bounce 1s;
+#pic20 {
+  width: 27.5%;
+  top: 0vw;
+  left: 10.4vw;
 }
 
-#grisha2 p {
-    top: 3641px;
-    left: 162px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-style: italic;
-    transition: all ease 0.5s;
+.aboutBlockquote4 {
+  width: 36%;
 }
 
-#grisha2 p:hover {
-    color: #04AE7B;
+#text13 {
+  text-align: right;
+  margin-top: 2.3vw;
+  padding-right: 0.9vw;
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  font-weight: 500;
+}
+
+#text14 {
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  font-weight: 500;
+  margin-top: 0.5vw;
+}
+
+/* __________________секция 7__________________ */
+.section_7 {
+  width: 100%;
+  height: 38vw;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+#grisha2 {
+  width: 61%;
+  height: 36vw;
 }
 
 #grisha2 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-/* секция 8 */
-
-#nastyas h3{
-    font-size: 59px;
-    font-weight: 700;
-    top: 3839px;
-    left: 405px;
-    letter-spacing: 2px;
-    position: absolute;
+#grisha2 img {
+  width: 37%;
+  padding-left: 10.5vw;
+  padding-top: 2.8vw;
 }
 
-#text18{
-    letter-spacing: 1px;
-    line-height: 27px;
-    text-align: right;
-    top: 3917px;
-    left: 158px;
+#grisha2 img:hover {
+  animation: bounce 1s;
 }
 
-#text19{
-     letter-spacing: 1px;
-    font-style: italic;
-    font-weight: 500;
-    top: 4168px;
-    left: 731px;
+#grisha2 p:hover {
+  color: #04ae7b;
 }
 
-#text20{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: right;
-    top: 4200px;
-    left: 526px;
+#link_5 {
+  font-weight: 500;
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  transition: all ease 0.5s;
+  margin-top: 30vw;
+  margin-left: 10.5vw;
 }
 
-#nastyas #pic26{
- opacity: 0.5;
-    top: 4229px;
-    left: 494px;
-    transition: all ease 0.5s;
+.contentDiv_5 {
+  width: 100%;
+  height: 36vw;
+  display: flex;
+  flex-direction: column;
 }
 
-#nastyas #pic26:hover {
-opacity: 1;
-transform: scale(1.1);
+#grisha {
+  width: 100%;
+  height: 22vw;
 }
 
-#nastyas #pic27{
- opacity: 0.5;
-    top: 4129px;
-    left: 469px;
-    transition: all ease 0.5s;
+#grisha h3 {
+  font-size: 3.85vw;
+  margin-top: 2.4vw;
+  margin-left: 0vw;
+  font-weight: 700;
+  letter-spacing: 0.13vw;
 }
 
-#nastyas #pic27:hover {
-opacity: 1;
-transform: scale(1.1);
+#text15 {
+  margin-top: 1.3vw;
+  padding-right: 16vw;
+  letter-spacing: 0.05vw;
+  line-height: 1.75vw;
 }
 
-#nastyas #pic28{
- opacity: 0.5;
-    top: 4190px;
-    left: 357px;
-    transition: all ease 0.5s;
+.about5 {
+  width: 100%;
+  height: 14vw;
+  display: flex;
+  flex-direction: row;
 }
 
-#nastyas #pic28:hover {
-opacity: 1;
-transform: scale(1.1);
+.aboutLinks5 {
+  position: relative;
+  width: 100%;
 }
 
-#nastyas #pic29{
- opacity: 0.5;
-    top: 4133px;
-    left: 324px;
-    transition: all ease 0.5s;
+#pic21 {
+  width: 14.6%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: -1.7vw;
+  left: -3.5vw;
 }
 
-#nastyas #pic29:hover {
-opacity: 1;
-transform: scale(1.1);
+#pic21:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }
 
-#nastyas img{
-top: 4142px;
-left: 161px;
+#pic22 {
+  width: 16%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 5.4vw;
+  left: -1vw;
 }
 
-#nastyas2 img{
-top: 3847px;
-left: 850px;
+#pic22:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }
 
-@keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-		transform: translateY(0);
-	}
-
-	40% {
-		transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
-
-	80% {
-		transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
+#pic23 {
+  width: 18.4%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: -1vw;
+  left: 2.3vw;
 }
 
-#nastyas2 img:hover {
-    animation: bounce 1s;
+#pic23:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }
 
-#nastyas2 p {
-    top: 4264px;
-    left: 956px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-style: italic;
-    transition: all ease 0.5s;
+#pic24 {
+  width: 13%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 4.8vw;
+  left: 5.3vw;
 }
 
-#nastyas2 p:hover {
-    color: #04AE7B;
+#pic24:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+#pic25 {
+  width: 36.5%;
+  top: 0.3vw;
+  left: 9.3vw;
+}
+
+.aboutBlockquote5 {
+  width: 45%;
+}
+
+#text16 {
+  margin-top: 2.2vw;
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  font-weight: 500;
+}
+
+#text17 {
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  font-weight: 500;
+  margin-top: 0.5vw;
+}
+
+/* _______________секция 8_______________ */
+.section_8 {
+  width: 100%;
+  height: 38vw;
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+}
+
+#nastyas2 {
+  width: 80%;
+  height: 36vw;
 }
 
 #nastyas2 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-/* секция 9 */
-
-#dashaz h3{
-    font-size: 59px;
-    font-weight: 700;
-    top: 4403px;
-    left: 577px;
-    letter-spacing: 2px;
-    position: absolute;
+#nastyas2 img {
+  width: 26.5%;
+  padding-left: 0.5vw;
+  padding-top: 5.7vw;
 }
 
-#text21{
-    letter-spacing: 1px;
-    line-height: 27px;
-    text-align: left;
-    top: 4480px;
-    left: 577px;
+#nastyas2 img:hover {
+  animation: bounce 1s;
 }
 
-#text22{
-     letter-spacing: 1px;
-    font-style: italic;
-    font-weight: 500;
-    top: 4731px;
-    left: 577px;
+#nastyas2 p:hover {
+  color: #04ae7b;
 }
 
-#text23{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: left;
-    top: 4762px;
-    left: 577px;
+#link_6 {
+  font-weight: 500;
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  transition: all ease 0.5s;
+  margin-top: 32.5vw;
+  margin-left: 7.2vw;
 }
 
-#dashaz #pic31{
- opacity: 0.5;
-    top: 4687px;
-    left: 805px;
-    transition: all ease 0.5s;
+.contentDiv_6 {
+  width: 100%;
+  height: 36vw;
+  display: flex;
+  flex-direction: column;
 }
 
-#dashaz #pic31:hover {
-opacity: 1;
-transform: scale(1.1);
+#nastyas {
+  width: 100%;
+  height: 22vw;
 }
 
-#dashaz #pic32{
- opacity: 0.5;
-    top: 4696px;
-    left: 870px;
-    transition: all ease 0.5s;
+#nastyas h3 {
+  font-size: 3.85vw;
+  margin-top: 4.9vw;
+  margin-left: 26.3vw;
+  font-weight: 700;
+  letter-spacing: 0.13vw;
 }
 
-#dashaz #pic32:hover {
-opacity: 1;
-transform: scale(1.1);
+#text18 {
+  text-align: right;
+  margin-top: 1.3vw;
+  padding-right: 0.7vw;
+  letter-spacing: 0.05vw;
+  line-height: 1.75vw;
 }
 
-#dashaz #pic33{
- opacity: 0.5;
-    top: 4769px;
-    left: 921px;
-    transition: all ease 0.5s;
+.about6 {
+  width: 100%;
+  height: 14vw;
+  display: flex;
+  flex-direction: row-reverse;
 }
 
-#dashaz #pic33:hover {
-opacity: 1;
-transform: scale(1.1);
+.aboutLinks6 {
+  position: relative;
+  width: 100%;
 }
 
-#dashaz #pic34{
- opacity: 0.5;
-    top: 4696px;
-    left: 966px;
-    transition: all ease 0.5s;
+#pic26 {
+  width: 13.6%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 7.8vw;
+  left: 32.2vw;
 }
 
-#dashaz #pic34:hover {
-opacity: 1;
-transform: scale(1.1);
+#pic26:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }
 
-#dashaz img{
-top: 4726px;
-left: 1013px;
+#pic27 {
+  width: 9%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 1.7vw;
+  left: 30.5vw;
 }
 
-#dashaz2 img{
-top: 4409px;
-left: 162px;
+#pic27:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }
 
-@keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-		transform: translateY(0);
-	}
-
-	40% {
-		transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
-
-	80% {
-		transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
+#pic28 {
+  width: 21.4%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 5.4vw;
+  left: 23.3vw;
 }
 
-#dashaz2 img:hover {
-    animation: bounce 1s;
+#pic28:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }
 
-#dashaz2 p {
-    top: 4827px;
-    left: 162px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-style: italic;
-    transition: all ease 0.5s;
+#pic29 {
+  width: 25%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 1.8vw;
+  left: 21.3vw;
 }
 
-#dashaz2 p:hover {
-    color: #04AE7B;
+#pic29:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+#pic30 {
+  width: 39.5%;
+  top: 2.3vw;
+  left: 10.4vw;
+}
+
+.aboutBlockquote6 {
+  width: 53%;
+}
+
+#text19 {
+  text-align: right;
+  padding-right: 0.9vw;
+  margin-top: 4vw;
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  font-weight: 500;
+}
+
+#text20 {
+  text-align: right;
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  font-weight: 500;
+  margin-top: 0.5vw;
+}
+
+/* _______________секция 9_______________ */
+.section_9 {
+  width: 100%;
+  height: 38vw;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+
+#dashaz2 {
+  width: 60%;
+  height: 36vw;
 }
 
 #dashaz2 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-/* секция 10 */
-
-#polina h3{
-    font-size: 59px;
-    font-weight: 700;
-    top: 4990px;
-    left: 193px;
-    letter-spacing: 2px;
-    position: absolute;
+#dashaz2 img {
+  width: 36.8%;
+  padding-left: 10.5vw;
+  padding-top: 4.2vw;
 }
 
-#text24{
-    letter-spacing: 1px;
-    line-height: 27px;
-    text-align: right;
-    top: 5067px;
-    left: 183px;
+#dashaz2 img:hover {
+  animation: bounce 1s;
 }
 
-#text25{
-     letter-spacing: 1px;
-    font-style: italic;
-    font-weight: 500;
-    top: 5317px;
-    left: 730px;
+#dashaz2 p:hover {
+  color: #04ae7b;
 }
 
-#text26{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: left;
-    top: 5349px;
-    left: 680px;
+#link_7 {
+  font-weight: 500;
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  transition: all ease 0.5s;
+  margin-top: 31.3vw;
+  margin-left: 10.5vw;
 }
 
-#polina #pic36{
- opacity: 0.5;
-    top: 5298px;
-    left: 564px;
-    transition: all ease 0.5s;
+.contentDiv_7 {
+  width: 100%;
+  height: 36vw;
+  display: flex;
+  flex-direction: column;
 }
 
-#polina #pic36:hover {
-opacity: 1;
-transform: scale(1.1);
+#dashaz {
+  width: 100%;
+  height: 22vw;
 }
 
-#polina #pic37{
- opacity: 0.5;
-    top: 5385px;
-    left: 508px;
-    transition: all ease 0.5s;
+#dashaz h3 {
+  font-size: 3.85vw;
+  margin-top: 3.7vw;
+  margin-left: 0.3vw;
+  font-weight: 700;
+  letter-spacing: 0.13vw;
 }
 
-#polina #pic37:hover {
-opacity: 1;
-transform: scale(1.1);
+#text21 {
+  margin-top: 1.3vw;
+  padding-left: 0.4vw;
+  letter-spacing: 0.05vw;
+  line-height: 1.75vw;
 }
 
-#polina #pic38{
- opacity: 0.5;
-    top: 5285px;
-    left: 462px;
-    transition: all ease 0.5s;
+.about7 {
+  width: 100%;
+  height: 14vw;
+  display: flex;
+  flex-direction: row;
 }
 
-#polina #pic38:hover {
-opacity: 1;
-transform: scale(1.1);
+.aboutLinks7 {
+  position: relative;
+  width: 100%;
 }
 
-#polina #pic39{
- opacity: 0.5;
-    top: 5319px;
-    left: 369px;
-    transition: all ease 0.5s;
+#pic31 {
+  width: 11.6%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: -0.6vw;
+  left: -6.2vw;
 }
 
-#polina #pic39:hover {
-opacity: 1;
-transform: scale(1.1);
+#pic31:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }
 
-#polina img{
-top: 5278px;
-left: 160px;
+#pic32 {
+  width: 17%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: -0.3vw;
+  left: -2.1vw;
 }
 
-#polina2 img{
-top: 4997px;
-left: 851px;
+#pic32:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }
 
-@keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-		transform: translateY(0);
-	}
-
-	40% {
-		transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
-
-	80% {
-		transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
+#pic33 {
+  width: 14.4%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 4.6vw;
+  left: 1.3vw;
 }
 
-#polina2 img:hover {
-    animation: bounce 1s;
+#pic33:hover {
+  opacity: 1;
+  transform: scale(1.1);
 }
 
-#polina2 p {
-    top: 5414px;
-    left: 1073px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-style: italic;
-    transition: all ease 0.5s;
+#pic34 {
+  width: 12%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: -0.2vw;
+  left: 4.3vw;
 }
 
-#polina2 p:hover {
-    color: #04AE7B;
+#pic34:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+#pic35 {
+  width: 39%;
+  top: 1.9vw;
+  left: 7.2vw;
+}
+
+.aboutBlockquote7 {
+  width: 53%;
+}
+
+#text22 {
+  margin-top: 2vw;
+  padding-left: 0.5vw;
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  font-weight: 500;
+}
+
+#text23 {
+  letter-spacing: 0.05vw;
+  padding-left: 0.3vw;
+  font-style: italic;
+  font-weight: 500;
+  margin-top: 0.5vw;
+}
+
+/* _____________секция 10_____________ */
+.section_10 {
+  width: 100%;
+  height: 38vw;
+  display: flex;
+  flex-direction: row-reverse;
+  position: relative;
+}
+
+#polina2 {
+  width: 80%;
+  height: 36vw;
 }
 
 #polina2 a {
-    text-decoration: none;
+  text-decoration: none;
+}
+
+#polina2 img {
+  width: 26.8%;
+  padding-left: 0.5vw;
+  padding-top: 4.3vw;
+}
+
+#polina2 img:hover {
+  animation: bounce 1s;
+}
+
+#polina2 p:hover {
+  color: #04ae7b;
+}
+
+#link_8 {
+  font-weight: 500;
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  transition: all ease 0.5s;
+  margin-top: 31.5vw;
+  margin-left: 14.8vw;
+}
+
+.contentDiv_8 {
+  width: 100%;
+  height: 36vw;
+  display: flex;
+  flex-direction: column;
+}
+
+#polina {
+  width: 100%;
+  height: 22vw;
+}
+
+#polina h3 {
+  font-size: 3.85vw;
+  margin-top: 3.9vw;
+  margin-left: 12.5vw;
+  font-weight: 700;
+  letter-spacing: 0.13vw;
+}
+
+#text24 {
+  text-align: right;
+  margin-top: 1.3vw;
+  padding-right: 0.7vw;
+  letter-spacing: 0.05vw;
+  line-height: 1.75vw;
+}
+
+.about8 {
+  width: 100%;
+  height: 14vw;
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.aboutLinks8 {
+  position: relative;
+  width: 100%;
+}
+
+#pic36 {
+  width: 22.6%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 1vw;
+  left: 36.8vw;
+}
+
+#pic36:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+#pic37 {
+  width: 16%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 6.3vw;
+  left: 33.1vw;
+}
+
+#pic37:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+#pic38 {
+  width: 18.4%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 0vw;
+  left: 30.1vw;
+}
+
+#pic38:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+#pic39 {
+  width: 20%;
+  opacity: 0.5;
+  transition: all ease 0.5s;
+  top: 2.2vw;
+  left: 24vw;
+}
+
+#pic39:hover {
+  opacity: 1;
+  transform: scale(1.1);
+}
+
+#pic40 {
+  width: 39%;
+  top: -0.5vw;
+  left: 10.5vw;
+}
+
+.aboutBlockquote8 {
+  width: 53%;
+}
+
+#text25 {
+  text-align: right;
+  margin-top: 2vw;
+  padding-right: 0.9vw;
+  letter-spacing: 0.05vw;
+  font-style: italic;
+  font-weight: 500;
+}
+
+#text26 {
+  letter-spacing: 0.05vw;
+  padding-left: 8.3vw;
+  font-style: italic;
+  font-weight: 500;
+  margin-top: 0.5vw;
 }
 
 /* секция 11 */
 
-#nastyab h3{
-    font-size: 59px;
-    font-weight: 700;
-    top: 5550px;
-    left: 577px;
-    letter-spacing: 2px;
-    position: absolute;
-}
-
-#text27{
-    letter-spacing: 1px;
-    line-height: 27px;
-    text-align: left;
-    top: 5627px;
-    left: 577px;
-}
-
-#text28{
-     letter-spacing: 1px;
-    font-style: italic;
-    font-weight: 500;
-    top: 5877px;
-    left: 577px;
-}
-
-#text29{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: left;
-    top: 5909px;
-    left: 577px;
-}
-
-#nastyab #pic41{
- opacity: 0.5;
-    top: 5818px;
-    left: 789px;
-    transition: all ease 0.5s;
-}
-
-#nastyab #pic41:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#nastyab #pic42{
- opacity: 0.5;
-    top: 5891px;
-    left: 816px;
-    transition: all ease 0.5s;
-}
-
-#nastyab #pic42:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#nastyab #pic43{
- opacity: 0.5;
-    top: 5828px;
-    left: 940px;
-    transition: all ease 0.5s;
-}
-
-#nastyab #pic43:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#nastyab #pic44{
- opacity: 0.5;
-    top: 5955px;
-    left: 947px;
-    transition: all ease 0.5s;
-}
-
-#nastyab #pic44:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#nastyab img{
-top: 5876px;
-left: 1067px;
-}
-
-#nastyab2 img{
-top: 5557px;
-left: 162px;
-}
-
-@keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-		transform: translateY(0);
-	}
-
-	40% {
-		transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
-
-	80% {
-		transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
-}
-
-#nastyab2 img:hover {
-    animation: bounce 1s;
-}
-
-#nastyab2 p {
-    top: 5974px;
-    left: 162px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-style: italic;
-    transition: all ease 0.5s;
-}
-
-#nastyab2 p:hover {
-    color: #04AE7B;
-}
-
-#nastyab2 a {
-    text-decoration: none;
-}
-
 /* секция 12 */
-
-#mashaz h3{
-    font-size: 59px;
-    font-weight: 700;
-    top: 6159px;
-    left: 326px;
-    letter-spacing: 2px;
-    position: absolute;
-}
-
-#text30{
-    letter-spacing: 1.06px;
-    line-height: 27px;
-    text-align: right;
-    top: 6237px;
-    left: 159px;
-}
-
-#text31{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: left;
-    top: 6487px;
-    left: 730px;
-}
-
-#text32{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: right;
-    top: 6519px;
-    left: 536px;
-}
-
-#mashaz #pic46{
- opacity: 0.5;
-    top: 6430px;
-    left: 475px;
-    transition: all ease 0.5s;
-}
-
-#mashaz #pic46:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#mashaz #pic47{
- opacity: 0.5;
-    top: 6518px;
-    left: 425px;
-    transition: all ease 0.5s;
-}
-
-#mashaz #pic47:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#mashaz #pic48{
- opacity: 0.5;
-    top: 6427px;
-    left: 353px;
-    transition: all ease 0.5s;
-}
-
-#mashaz #pic48:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#mashaz #pic49{
- opacity: 0.5;
-    top: 6539px;
-    left: 302px;
-    transition: all ease 0.5s;
-}
-
-#mashaz #pic49:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#mashaz img{
-top: 6447px;
-left: 161px;
-}
-
-#mashaz2 img{
-top: 6168px;
-left: 850px;
-}
-
-@keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-		transform: translateY(0);
-	}
-
-	40% {
-		transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
-
-	80% {
-		transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
-}
-
-#mashaz2 img:hover {
-    animation: bounce 1s;
-}
-
-#mashaz2 p {
-    top: 6584px;
-    left: 1044px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-style: italic;
-    transition: all ease 0.5s;
-}
-
-#mashaz2 p:hover {
-    color: #04AE7B;
-}
-
-#mashaz2 a {
-    text-decoration: none;
-}
 
 /* секция 13 */
 
-#masham h3{
-    font-size: 59px;
-    font-weight: 700;
-    top: 6719px;
-    left: 578px;
-    letter-spacing: 2px;
-    position: absolute;
-}
-
-#text33{
-    letter-spacing: 1.06px;
-    line-height: 27px;
-    text-align: left;
-    top: 6797px;
-    left: 576px;
-}
-
-#text34{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: left;
-    top: 7047px;
-    left: 577px;
-}
-
-#text35{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: left;
-    top: 7080px;
-    left: 577px;
-}
-
-#masham #pic51{
- opacity: 0.5;
-    top: 7016px;
-    left: 842px;
-    transition: all ease 0.5s;
-}
-
-#masham #pic51:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#masham #pic52{
- opacity: 0.5;
-    top: 7096px;
-    left: 853px;
-    transition: all ease 0.5s;
-}
-
-#masham #pic52:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#masham #pic53{
- opacity: 0.5;
-    top: 7016px;
-    left: 953px;
-    transition: all ease 0.5s;
-}
-
-#masham #pic53:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#masham #pic54{
- opacity: 0.5;
-    top: 7146px;
-    left: 1001px;
-    transition: all ease 0.5s;
-}
-
-#masham #pic54:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#masham img{
-top: 7046px;
-left: 1078px;
-}
-
-#masham2 img{
-top: 6727px;
-left: 161px;
-}
-
-@keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-		transform: translateY(0);
-	}
-
-	40% {
-		transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
-
-	80% {
-		transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
-}
-
-#masham2 img:hover {
-    animation: bounce 1s;
-}
-
-#masham2 p {
-    top: 7144px;
-    left: 162px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-style: italic;
-    transition: all ease 0.5s;
-}
-
-#masham2 p:hover {
-    color: #04AE7B;
-}
-
-#masham2 a {
-    text-decoration: none;
-}
-
 /* секция 14 */
-
-#anya h3{
-    font-size: 59px;
-    font-weight: 700;
-    top: 7316px;
-    left: 344px;
-    letter-spacing: 2px;
-    position: absolute;
-}
-
-#text36{
-    letter-spacing: 1px;
-    line-height: 27px;
-    text-align: right;
-    top: 7394px;
-    left: 174px;
-}
-
-#text37{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: left;
-    top: 7644px;
-    left: 731px;
-}
-
-#text38{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: right;
-    top: 7676px;
-    left: 618px;
-}
-
-#anya #pic56{
- opacity: 0.5;
-    top: 7676px;
-    left: 508px;
-    transition: all ease 0.5s;
-}
-
-#anya #pic56:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#anya #pic57{
- opacity: 0.5;
-    top: 7588px;
-    left: 431px;
-    transition: all ease 0.5s;
-}
-
-#anya #pic57:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#anya #pic58{
- opacity: 0.5;
-    top: 7688px;
-    left: 357px;
-    transition: all ease 0.5s;
-}
-
-#anya #pic58:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#anya #pic59{
- opacity: 0.5;
-    top: 7588px;
-    left: 325px;
-    transition: all ease 0.5s;
-}
-
-#anya #pic59:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#anya img{
-top: 7603px;
-left: 162px;
-}
-
-#anya2 img{
-top: 7324px;
-left: 849px;
-}
-
-@keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-		transform: translateY(0);
-	}
-
-	40% {
-		transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
-
-	80% {
-		transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
-}
-
-#anya2 img:hover {
-    animation: bounce 1s;
-}
-
-#anya2 p {
-    top: 7741px;
-    left: 1043px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-style: italic;
-    transition: all ease 0.5s;
-}
-
-#anya2 p:hover {
-    color: #04AE7B;
-}
-
-#anya2 a {
-    text-decoration: none;
-}
 
 /* секция 15 */
 
-#mashad h3{
-    font-size: 59px;
-    font-weight: 700;
-    top: 7876px;
-    left: 576px;
-    letter-spacing: 2px;
-    position: absolute;
-}
-
-#text39{
-    letter-spacing: 1px;
-    line-height: 27px;
-    text-align: left;
-    top: 7954px;
-    left: 577px;
-}
-
-#text40{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: left;
-    top: 8204px;
-    left: 577px;
-}
-
-#text41{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: left;
-    top: 8236px;
-    left: 577px;
-}
-
-#mashad #pic61{
- opacity: 0.5;
-    top: 8147px;
-    left: 787px;
-    transition: all ease 0.5s;
-}
-
-#mashad #pic61:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#mashad #pic62{
- opacity: 0.5;
-    top: 8217px;
-    left: 878px;
-    transition: all ease 0.5s;
-}
-
-#mashad #pic62:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#mashad #pic63{
- opacity: 0.5;
-    top: 8148px;
-    left: 949px;
-    transition: all ease 0.5s;
-}
-
-#mashad #pic63:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#mashad #pic64{
- opacity: 0.5;
-    top: 8255px;
-    left: 967px;
-    transition: all ease 0.5s;
-}
-
-#mashad #pic64:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#mashad img{
-top: 8201px;
-left: 1051px;
-}
-
-#mashad2 img{
-top: 7884px;
-left: 161px;
-}
-
-@keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-		transform: translateY(0);
-	}
-
-	40% {
-		transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
-
-	80% {
-		transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
-}
-
-#mashad2 img:hover {
-    animation: bounce 1s;
-}
-
-#mashad2 p {
-    top: 8300px;
-    left: 162px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-style: italic;
-    transition: all ease 0.5s;
-}
-
-#mashad2 p:hover {
-    color: #04AE7B;
-}
-
-#mashad2 a {
-    text-decoration: none;
-}
-
 /* секция 16 */
-
-#arina h3{
-    font-size: 59px;
-    font-weight: 700;
-    top: 8474px;
-    left: 288px;
-    letter-spacing: 2px;
-    position: absolute;
-}
-
-#text42{
-    letter-spacing: 1px;
-    line-height: 27px;
-    text-align: right;
-    top: 8551px;
-    left: 165px;
-}
-
-#text43{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: left;
-    top: 8801px;
-    left: 731px;
-}
-
-#text44{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: right;
-    top: 8833px;
-    left: 595px;
-}
-
-#arina #pic66{
- opacity: 0.5;
-    top: 8850px;
-    left: 489px;
-    transition: all ease 0.5s;
-}
-
-#arina #pic66:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#arina #pic67{
- opacity: 0.5;
-    top: 8735px;
-    left: 477px;
-    transition: all ease 0.5s;
-}
-
-#arina #pic67:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#arina #pic68{
- opacity: 0.5;
-    top: 8819px;
-    left: 377px;
-    transition: all ease 0.5s;
-}
-
-#arina #pic68:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#arina #pic69{
- opacity: 0.5;
-    top: 8730px;
-    left: 359px;
-    transition: all ease 0.5s;
-}
-
-#arina #pic69:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#arina img{
-top: 8759px;
-left: 161px;
-}
-
-#arina2 img{
-top: 8481px;
-left: 849px;
-}
-
-@keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-		transform: translateY(0);
-	}
-
-	40% {
-		transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
-
-	80% {
-		transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
-}
-
-#arina2 img:hover {
-    animation: bounce 1s;
-}
-
-#arina2 p {
-    top: 8898px;
-    left: 1070px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-style: italic;
-    transition: all ease 0.5s;
-}
-
-#arina2 p:hover {
-    color: #04AE7B;
-}
-
-#arina2 a {
-    text-decoration: none;
-}
 
 /* секция 17 */
 
-#veronika h3{
-    font-size: 59px;
-    font-weight: 700;
-    top: 9030px;
-    left: 577px;
-    letter-spacing: 2px;
-    position: absolute;
-}
-
-#text45{
-    letter-spacing: 1px;
-    line-height: 27px;
-    text-align: left;
-    top: 9107px;
-    left: 577px;
-}
-
-#text46{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: left;
-    top: 9356px;
-    left: 577px;
-}
-
-#text47{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: left;
-    top: 9388px;
-    left: 577px;
-}
-
-#veronika #pic71{
- opacity: 0.5;
-    top: 9290px;
-    left: 729px;
-    transition: all ease 0.5s;
-}
-
-#veronika #pic71:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#veronika #pic72{
- opacity: 0.5;
-    top: 9409px;
-    left: 780px;
-    transition: all ease 0.5s;
-}
-
-#veronika #pic72:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#veronika #pic73{
- opacity: 0.5;
-    top: 9310px;
-    left: 889px;
-    transition: all ease 0.5s;
-}
-
-#veronika #pic73:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#veronika #pic74{
- opacity: 0.5;
-    top: 9406px;
-    left: 906px;
-    transition: all ease 0.5s;
-}
-
-#veronika #pic74:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#veronika img{
-top: 9354px;
-left: 1041px;
-}
-
-#veronika2 img{
-top: 9037px;
-left: 161px;
-}
-
-@keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-		transform: translateY(0);
-	}
-
-	40% {
-		transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
-
-	80% {
-		transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
-}
-
-#veronika2 img:hover {
-    animation: bounce 1s;
-}
-
-#veronika2 p {
-    top: 9453px;
-    left: 162px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-style: italic;
-    transition: all ease 0.5s;
-}
-
-#veronika2 p:hover {
-    color: #04AE7B;
-}
-
-#veronika2 a {
-    text-decoration: none;
-}
-
 /* секция 18 */
 
-#cris h3{
-    font-size: 59px;
-    font-weight: 700;
-    top: 9626px;
-    left: 350px;
-    letter-spacing: 2px;
-    position: absolute;
-}
-
-#text48{
-    letter-spacing: 1px;
-    line-height: 27px;
-    text-align: right;
-    top: 9703px;
-    left: 188px;
-}
-
-#text49{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: left;
-    top: 9953px;
-    left: 730px;
-}
-
-#text50{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: right;
-    top: 9985px;
-    left: 680px;
-}
-
-#cris #pic76{
- opacity: 0.5;
-    top: 9913px;
-    left: 551px;
-    transition: all ease 0.5s;
-}
-
-#cris #pic76:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#cris #pic77{
- opacity: 0.5;
-    top: 9882px;
-    left: 454px;
-    transition: all ease 0.5s;
-}
-
-#cris #pic77:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#cris #pic78{
- opacity: 0.5;
-    top: 9954px;
-    left: 402px;
-    transition: all ease 0.5s;
-}
-
-#cris #pic78:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#cris #pic79{
- opacity: 0.5;
-    top: 9887px;
-    left: 350px;
-    transition: all ease 0.5s;
-}
-
-#cris #pic79:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#cris img{
-top: 9881px;
-left: 161px;
-}
-
-#cris2 img{
-top: 9633px;
-left: 849px;
-}
-
-@keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-		transform: translateY(0);
-	}
-
-	40% {
-		transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
-
-	80% {
-		transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
-}
-
-#cris2 img:hover {
-    animation: bounce 1s;
-}
-
-#cris2 p {
-    top: 10050px;
-    left: 1010px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-style: italic;
-    transition: all ease 0.5s;
-}
-
-#cris2 p:hover {
-    color: #04AE7B;
-}
-
-#cris2 a {
-    text-decoration: none;
-}
-
 /* секция 19 */
-
-#dashap h3{
-    font-size: 59px;
-    font-weight: 700;
-    top: 10186px;
-    left: 577px;
-    letter-spacing: 2px;
-    position: absolute;
-}
-
-#text51{
-    letter-spacing: 1px;
-    line-height: 27px;
-    text-align: left;
-    top: 10264px;
-    left: 578px;
-}
-
-#text52{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: left;
-    top: 10514px;
-    left: 577px;
-}
-
-#text53{
-    letter-spacing: 1px;
-    line-height: 26px;
-    font-style: italic;
-    font-weight: 500;
-    text-align: left;
-    top: 10546px;
-    left: 577px;
-}
-
-#dashap #pic81{
- opacity: 0.5;
-    top: 10455px;
-    left: 791px;
-    transition: all ease 0.5s;
-}
-
-#dashap #pic81:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#dashap #pic82{
- opacity: 0.5;
-    top: 10546px;
-    left: 791px;
-    transition: all ease 0.5s;
-}
-
-#dashap #pic82:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#dashap #pic83{
- opacity: 0.5;
-    top: 10475px;
-    left: 897px;
-    transition: all ease 0.5s;
-}
-
-#dashap #pic83:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#dashap #pic84{
- opacity: 0.5;
-    top: 10561px;
-    left: 961px;
-    transition: all ease 0.5s;
-}
-
-#dashap #pic84:hover {
-opacity: 1;
-transform: scale(1.1);
-}
-
-#dashap img{
-top: 10501px;
-left: 1054px;
-}
-
-#dashap2 img{
-top: 10195px;
-left: 161px;
-}
-
-@keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-		transform: translateY(0);
-	}
-
-	40% {
-		transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
-
-	80% {
-		transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
-}
-
-#dashap2 img:hover {
-    animation: bounce 1s;
-}
-
-#dashap2 p {
-    top: 10611px;
-    left: 161px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-style: italic;
-    transition: all ease 0.5s;
-}
-
-#dashap2 p:hover {
-    color: #04AE7B;
-}
-
-#dashap2 a {
-    text-decoration: none;
-}
 
 /* секция 20 */
 
 .section-20 #best {
-    font-size: 89px;
-    font-weight: 200;
-    font-style: italic;
-    letter-spacing: 4px;
-    left: 199px;
-    top: 10806px;
-    position: absolute;
+  font-size: 89px;
+  font-weight: 200;
+  font-style: italic;
+  letter-spacing: 4px;
+  left: 199px;
+  top: 10806px;
+  position: absolute;
 }
 
 #artmentor {
-    font-size: 89px;
-    font-weight: 700;
-    top: 10881px;
-    left: 511px;
-    letter-spacing: 4px;
-    position: absolute;
+  font-size: 89px;
+  font-weight: 700;
+  top: 10881px;
+  left: 511px;
+  letter-spacing: 4px;
+  position: absolute;
 }
 
 /* секция 21 */
 
 #dima {
-top: 11070px;
-left: 161px;
+  top: 11070px;
+  left: 161px;
 }
 
 @keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-		transform: translateY(0);
-	}
+  0%,
+  20%,
+  60%,
+  100% {
+    transform: translateY(0);
+    transform: translateY(0);
+  }
 
-	40% {
-		transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
+  40% {
+    transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
 
-	80% {
-		transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
+  80% {
+    transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
 }
 
 #dima:hover {
-    animation: bounce 1s;
+  animation: bounce 1s;
 }
 
 #lina {
-top: 11070px;
-left: 542px;
+  top: 11070px;
+  left: 542px;
 }
 
 @keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-		transform: translateY(0);
-	}
+  0%,
+  20%,
+  60%,
+  100% {
+    transform: translateY(0);
+    transform: translateY(0);
+  }
 
-	40% {
-		transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
+  40% {
+    transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
 
-	80% {
-		transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
+  80% {
+    transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
 }
 
 #lina:hover {
-    animation: bounce 1s;
+  animation: bounce 1s;
 }
 
 #anyam {
-top: 11070px;
-left: 923px;
+  top: 11070px;
+  left: 923px;
 }
 
 @keyframes bounce {
-	0%, 20%, 60%, 100% {
-		transform: translateY(0);
-		transform: translateY(0);
-	}
+  0%,
+  20%,
+  60%,
+  100% {
+    transform: translateY(0);
+    transform: translateY(0);
+  }
 
-	40% {
-		transform: translateY(-20px);
-		transform: translateY(-20px);
-	}
+  40% {
+    transform: translateY(-20px);
+    transform: translateY(-20px);
+  }
 
-	80% {
-		transform: translateY(-10px);
-		transform: translateY(-10px);
-	}
+  80% {
+    transform: translateY(-10px);
+    transform: translateY(-10px);
+  }
 }
 
 #anyam:hover {
-    animation: bounce 1s;
+  animation: bounce 1s;
 }
 
 #dima1 {
-    font-size: 59px;
-    font-weight: 700;
-    top: 11449px;
-    left: 244px;
-    letter-spacing: 2px;
-    position: absolute;
+  font-size: 59px;
+  font-weight: 700;
+  top: 11449px;
+  left: 244px;
+  letter-spacing: 2px;
+  position: absolute;
 }
 
 #lina1 {
-    font-size: 59px;
-    font-weight: 700;
-    top: 11449px;
-    left: 626px;
-    letter-spacing: 2px;
-    position: absolute;
+  font-size: 59px;
+  font-weight: 700;
+  top: 11449px;
+  left: 626px;
+  letter-spacing: 2px;
+  position: absolute;
 }
 
 #anyam1 {
-    font-size: 59px;
-    font-weight: 700;
-    top: 11449px;
-    left: 1033px;
-    letter-spacing: 2px;
-    position: absolute;
+  font-size: 59px;
+  font-weight: 700;
+  top: 11449px;
+  left: 1033px;
+  letter-spacing: 2px;
+  position: absolute;
 }
 
 #text54 {
-    letter-spacing: 1px;
-    line-height: 27px;
-    text-align: left;
-    top: 11511px;
-    left: 254px;
+  letter-spacing: 1px;
+  line-height: 27px;
+  text-align: left;
+  top: 11511px;
+  left: 254px;
 }
 
 #text55 {
-    letter-spacing: 1px;
-    line-height: 27px;
-    text-align: left;
-    top: 11511px;
-    left: 622px;
+  letter-spacing: 1px;
+  line-height: 27px;
+  text-align: left;
+  top: 11511px;
+  left: 622px;
 }
 
 #text56 {
-    letter-spacing: 1px;
-    line-height: 27px;
-    text-align: left;
-    top: 11511px;
-    left: 982px;
+  letter-spacing: 1px;
+  line-height: 27px;
+  text-align: left;
+  top: 11511px;
+  left: 982px;
 }
 
 #text57 {
-    top: 11553px;
-    left: 254px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-style: italic;
-    transition: all ease 0.5s;
+  top: 11553px;
+  left: 254px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-style: italic;
+  transition: all ease 0.5s;
 }
 
 #text57:hover {
-    color: #04AE7B;
+  color: #04ae7b;
 }
 
 #text57 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #text58 {
-    top: 11553px;
-    left: 623px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-style: italic;
-    transition: all ease 0.5s;
+  top: 11553px;
+  left: 623px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-style: italic;
+  transition: all ease 0.5s;
 }
 
 #text58:hover {
-    color: #04AE7B;
+  color: #04ae7b;
 }
 
 #text58 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
 #text59 {
-    top: 11553px;
-    left: 1012px;
-    font-weight: 500;
-    letter-spacing: 1px;
-    font-style: italic;
-    transition: all ease 0.5s;
+  top: 11553px;
+  left: 1012px;
+  font-weight: 500;
+  letter-spacing: 1px;
+  font-style: italic;
+  transition: all ease 0.5s;
 }
 
 #text59:hover {
-    color: #04AE7B;
+  color: #04ae7b;
 }
 
 #text59 a {
-    text-decoration: none;
+  text-decoration: none;
 }
 
-#pic86{
- opacity: 0.5;
-    top: 11578px;
-    left: 278px;
-    transition: all ease 0.5s;
+#pic86 {
+  opacity: 0.5;
+  top: 11578px;
+  left: 278px;
+  transition: all ease 0.5s;
 }
 
 #pic86:hover {
-opacity: 1;
-transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
-#pic87{
- opacity: 0.5;
-    top: 11578px;
-    left: 652px;
-    transition: all ease 0.5s;
+#pic87 {
+  opacity: 0.5;
+  top: 11578px;
+  left: 652px;
+  transition: all ease 0.5s;
 }
 
 #pic87:hover {
-opacity: 1;
-transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
-#pic88{
- opacity: 0.5;
-    top: 11578px;
-    left: 1049px;
-    transition: all ease 0.5s;
+#pic88 {
+  opacity: 0.5;
+  top: 11578px;
+  left: 1049px;
+  transition: all ease 0.5s;
 }
 
 #pic88:hover {
-opacity: 1;
-transform: scale(1.1);
+  opacity: 1;
+  transform: scale(1.1);
 }
 
 /* секция 22 */
 
 #rectangle {
-    width: 1441px;
-    height: 686px;
-    background-color: #131313;
-    translate: 0 11593px;
+  width: 1441px;
+  height: 686px;
+  background-color: #131313;
+  translate: 0 11593px;
 }
 
 #footer h1 {
-    color: white;
-    font-size: 130px;
-    font-weight: 700;
-    font-style: normal;
-    letter-spacing: 4.9px;
-    left: 307px;
-    top: 11938px;
-    text-align: center;
-    position: absolute;
+  color: white;
+  font-size: 130px;
+  font-weight: 700;
+  font-style: normal;
+  letter-spacing: 4.9px;
+  left: 307px;
+  top: 11938px;
+  text-align: center;
+  position: absolute;
 }
 
 #footer h3 {
-    color: white;
-    font-size: 35px;
-    font-weight: 400;
-    top: 12078px;
-    left: 390px;
-    letter-spacing: 2.1px;
-    position: absolute;
+  color: white;
+  font-size: 35px;
+  font-weight: 400;
+  top: 12078px;
+  left: 390px;
+  letter-spacing: 2.1px;
+  position: absolute;
 }
 
 #footer p {
-    color: white;
-    letter-spacing: 1px;
-    line-height: 27px;
-    text-align: center;
-    top: 12290px;
-    left: 459px;
+  color: white;
+  letter-spacing: 1px;
+  line-height: 27px;
+  text-align: center;
+  top: 12290px;
+  left: 459px;
 }
